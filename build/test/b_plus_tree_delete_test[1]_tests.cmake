@@ -1,0 +1,7 @@
+add_test([=[BPlusTreeTests.DeleteTest1]=]  /home/omar/Desktop/bustub/build/test/b_plus_tree_delete_test [==[--gtest_filter=BPlusTreeTests.DISABLED_DeleteTest1]==] --gtest_also_run_disabled_tests [==[--gtest_output=xml:/home/omar/Desktop/bustub/build/test/b_plus_tree_delete_test.xml]==] [==[--gtest_catch_exceptions=0]==])
+set_tests_properties([=[BPlusTreeTests.DeleteTest1]=]  PROPERTIES DISABLED TRUE)
+set_tests_properties([=[BPlusTreeTests.DeleteTest1]=]  PROPERTIES WORKING_DIRECTORY /home/omar/Desktop/bustub/build/test SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==] TIMEOUT 120)
+add_test([=[BPlusTreeTests.DeleteTest2]=]  /home/omar/Desktop/bustub/build/test/b_plus_tree_delete_test [==[--gtest_filter=BPlusTreeTests.DISABLED_DeleteTest2]==] --gtest_also_run_disabled_tests [==[--gtest_output=xml:/home/omar/Desktop/bustub/build/test/b_plus_tree_delete_test.xml]==] [==[--gtest_catch_exceptions=0]==])
+set_tests_properties([=[BPlusTreeTests.DeleteTest2]=]  PROPERTIES DISABLED TRUE)
+set_tests_properties([=[BPlusTreeTests.DeleteTest2]=]  PROPERTIES WORKING_DIRECTORY /home/omar/Desktop/bustub/build/test SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==] TIMEOUT 120)
+set(  b_plus_tree_delete_test_TESTS BPlusTreeTests.DeleteTest1 BPlusTreeTests.DeleteTest2)

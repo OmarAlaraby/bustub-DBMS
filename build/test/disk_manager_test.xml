@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="1" failures="0" disabled="0" errors="0" time="0." timestamp="2024-10-01T20:02:36.571" name="AllTests">
+  <testsuite name="DiskManagerTest" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0." timestamp="2024-10-01T20:02:36.571">
+    <testcase name="ThrowBadFileTest" file="/home/omar/Desktop/bustub/test/storage/disk_manager_test.cpp" line="77" status="run" result="completed" time="0." timestamp="2024-10-01T20:02:36.571" classname="DiskManagerTest" />
+  </testsuite>
+</testsuites>

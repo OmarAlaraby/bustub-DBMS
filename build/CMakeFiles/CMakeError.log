@@ -1,0 +1,25 @@
+Performing C++ SOURCE FILE Test ELF_GETSHDRSTRNDX failed with the following output:
+Change Dir: /home/omar/Desktop/bustub/build/CMakeFiles/CMakeScratch/TryCompile-rEtizg
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_23643/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_23643.dir/build.make CMakeFiles/cmTC_23643.dir/build
+gmake[1]: Entering directory '/home/omar/Desktop/bustub/build/CMakeFiles/CMakeScratch/TryCompile-rEtizg'
+Building CXX object CMakeFiles/cmTC_23643.dir/src.cxx.o
+/usr/bin/clang++ -DELF_GETSHDRSTRNDX  -fPIE -std=gnu++17 -MD -MT CMakeFiles/cmTC_23643.dir/src.cxx.o -MF CMakeFiles/cmTC_23643.dir/src.cxx.o.d -o CMakeFiles/cmTC_23643.dir/src.cxx.o -c /home/omar/Desktop/bustub/build/CMakeFiles/CMakeScratch/TryCompile-rEtizg/src.cxx
+/home/omar/Desktop/bustub/build/CMakeFiles/CMakeScratch/TryCompile-rEtizg/src.cxx:1:10: fatal error: 'libelf.h' file not found
+#include <libelf.h>
+         ^~~~~~~~~~
+1 error generated.
+gmake[1]: *** [CMakeFiles/cmTC_23643.dir/build.make:79: CMakeFiles/cmTC_23643.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/omar/Desktop/bustub/build/CMakeFiles/CMakeScratch/TryCompile-rEtizg'
+gmake: *** [Makefile:127: cmTC_23643/fast] Error 2
+
+
+Source file was:
+#include <libelf.h>
+int main() {
+  Elf *e = (Elf*)0;
+  size_t sz;
+  elf_getshdrstrndx(e, &sz);
+  return 0;
+}
+

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="1" failures="0" disabled="0" errors="0" time="0.037" timestamp="2024-10-01T20:02:29.203" name="AllTests">
+  <testsuite name="RWLatchTest" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0.037" timestamp="2024-10-01T20:02:29.203">
+    <testcase name="BasicTest" file="/home/omar/Desktop/bustub/test/common/rwlatch_test.cpp" line="43" status="run" result="completed" time="0.037" timestamp="2024-10-01T20:02:29.203" classname="RWLatchTest" />
+  </testsuite>
+</testsuites>

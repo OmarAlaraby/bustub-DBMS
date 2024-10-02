@@ -1,0 +1,7 @@
+add_test([=[TxnTsTest.WatermarkPerformance]=]  /home/omar/Desktop/bustub/build/test/txn_timestamp_test [==[--gtest_filter=TxnTsTest.DISABLED_WatermarkPerformance]==] --gtest_also_run_disabled_tests [==[--gtest_output=xml:/home/omar/Desktop/bustub/build/test/txn_timestamp_test.xml]==] [==[--gtest_catch_exceptions=0]==])
+set_tests_properties([=[TxnTsTest.WatermarkPerformance]=]  PROPERTIES DISABLED TRUE)
+set_tests_properties([=[TxnTsTest.WatermarkPerformance]=]  PROPERTIES WORKING_DIRECTORY /home/omar/Desktop/bustub/build/test SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==] TIMEOUT 120)
+add_test([=[TxnTsTest.TimestampTracking]=]  /home/omar/Desktop/bustub/build/test/txn_timestamp_test [==[--gtest_filter=TxnTsTest.DISABLED_TimestampTracking]==] --gtest_also_run_disabled_tests [==[--gtest_output=xml:/home/omar/Desktop/bustub/build/test/txn_timestamp_test.xml]==] [==[--gtest_catch_exceptions=0]==])
+set_tests_properties([=[TxnTsTest.TimestampTracking]=]  PROPERTIES DISABLED TRUE)
+set_tests_properties([=[TxnTsTest.TimestampTracking]=]  PROPERTIES WORKING_DIRECTORY /home/omar/Desktop/bustub/build/test SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==] TIMEOUT 120)
+set(  txn_timestamp_test_TESTS TxnTsTest.WatermarkPerformance TxnTsTest.TimestampTracking)

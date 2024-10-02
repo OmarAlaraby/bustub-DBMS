@@ -1,0 +1,3407 @@
+Start testing: Oct 01 20:02 EEST
+----------------------------------------------------------
+1/172 Testing: CrashTest.PtrAccess
+1/172 Test: CrashTest.PtrAccess
+Command: ""
+Directory: /home/omar/Desktop/bustub/build/test
+"CrashTest.PtrAccess" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CrashTest.PtrAccess" end time: Oct 01 20:02 EEST
+"CrashTest.PtrAccess" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/172 Testing: CrashTest.GtestAssert
+2/172 Test: CrashTest.GtestAssert
+Command: ""
+Directory: /home/omar/Desktop/bustub/build/test
+"CrashTest.GtestAssert" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CrashTest.GtestAssert" end time: Oct 01 20:02 EEST
+"CrashTest.GtestAssert" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/172 Testing: CrashTest.Assert
+3/172 Test: CrashTest.Assert
+Command: ""
+Directory: /home/omar/Desktop/bustub/build/test
+"CrashTest.Assert" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CrashTest.Assert" end time: Oct 01 20:02 EEST
+"CrashTest.Assert" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/172 Testing: CrashTest.Ensure
+4/172 Test: CrashTest.Ensure
+Command: ""
+Directory: /home/omar/Desktop/bustub/build/test
+"CrashTest.Ensure" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"CrashTest.Ensure" end time: Oct 01 20:02 EEST
+"CrashTest.Ensure" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/172 Testing: CrashTest.Throw
+5/172 Test: CrashTest.Throw
+Command: "/home/omar/Desktop/bustub/build/test/crash_test" "--gtest_filter=CrashTest.Throw" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/crash_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"CrashTest.Throw" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = CrashTest.Throw
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CrashTest
+[ RUN      ] CrashTest.Throw
+[       OK ] CrashTest.Throw (0 ms)
+[----------] 1 test from CrashTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"CrashTest.Throw" end time: Oct 01 20:02 EEST
+"CrashTest.Throw" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/172 Testing: BinderTest.BindSelectValue
+6/172 Test: BinderTest.BindSelectValue
+Command: "/home/omar/Desktop/bustub/build/test/binder_test" "--gtest_filter=BinderTest.BindSelectValue" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/binder_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"BinderTest.BindSelectValue" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = BinderTest.BindSelectValue
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BinderTest
+[ RUN      ] BinderTest.BindSelectValue
+BoundSelect {
+  table=<empty>,
+  columns=["1"],
+  groupBy=[],
+  having=,
+  where=,
+  limit=,
+  offset=,
+  order_by=[],
+  is_distinct=false,
+  ctes=,
+}
+[       OK ] BinderTest.BindSelectValue (0 ms)
+[----------] 1 test from BinderTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"BinderTest.BindSelectValue" end time: Oct 01 20:02 EEST
+"BinderTest.BindSelectValue" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/172 Testing: BinderTest.BindSelectFrom
+7/172 Test: BinderTest.BindSelectFrom
+Command: "/home/omar/Desktop/bustub/build/test/binder_test" "--gtest_filter=BinderTest.BindSelectFrom" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/binder_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"BinderTest.BindSelectFrom" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = BinderTest.BindSelectFrom
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BinderTest
+[ RUN      ] BinderTest.BindSelectFrom
+BoundSelect {
+  table=BoundBaseTableRef { table=y, oid=0 },
+  columns=["y.x"],
+  groupBy=[],
+  having=,
+  where=,
+  limit=,
+  offset=,
+  order_by=[],
+  is_distinct=false,
+  ctes=,
+}
+[       OK ] BinderTest.BindSelectFrom (1 ms)
+[----------] 1 test from BinderTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"BinderTest.BindSelectFrom" end time: Oct 01 20:02 EEST
+"BinderTest.BindSelectFrom" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/172 Testing: BinderTest.BindSelectFromWhere
+8/172 Test: BinderTest.BindSelectFromWhere
+Command: "/home/omar/Desktop/bustub/build/test/binder_test" "--gtest_filter=BinderTest.BindSelectFromWhere" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/binder_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"BinderTest.BindSelectFromWhere" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = BinderTest.BindSelectFromWhere
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BinderTest
+[ RUN      ] BinderTest.BindSelectFromWhere
+BoundSelect {
+  table=BoundBaseTableRef { table=y, oid=0 },
+  columns=["y.x"],
+  groupBy=[],
+  having=,
+  where=(y.z=1),
+  limit=,
+  offset=,
+  order_by=[],
+  is_distinct=false,
+  ctes=,
+}
+[       OK ] BinderTest.BindSelectFromWhere (1 ms)
+[----------] 1 test from BinderTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"BinderTest.BindSelectFromWhere" end time: Oct 01 20:02 EEST
+"BinderTest.BindSelectFromWhere" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/172 Testing: BinderTest.BindSelectFromStar
+9/172 Test: BinderTest.BindSelectFromStar
+Command: "/home/omar/Desktop/bustub/build/test/binder_test" "--gtest_filter=BinderTest.BindSelectFromStar" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/binder_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"BinderTest.BindSelectFromStar" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = BinderTest.BindSelectFromStar
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BinderTest
+[ RUN      ] BinderTest.BindSelectFromStar
+BoundSelect {
+  table=BoundBaseTableRef { table=y, oid=0 },
+  columns=["y.x", "y.z", "y.a", "y.b", "y.c"],
+  groupBy=[],
+  having=,
+  where=,
+  limit=,
+  offset=,
+  order_by=[],
+  is_distinct=false,
+  ctes=,
+}
+[       OK ] BinderTest.BindSelectFromStar (1 ms)
+[----------] 1 test from BinderTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"BinderTest.BindSelectFromStar" end time: Oct 01 20:02 EEST
+"BinderTest.BindSelectFromStar" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/172 Testing: BinderTest.BindSelectFromMultipleCol
+10/172 Test: BinderTest.BindSelectFromMultipleCol
+Command: "/home/omar/Desktop/bustub/build/test/binder_test" "--gtest_filter=BinderTest.BindSelectFromMultipleCol" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/binder_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"BinderTest.BindSelectFromMultipleCol" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = BinderTest.BindSelectFromMultipleCol
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BinderTest
+[ RUN      ] BinderTest.BindSelectFromMultipleCol
+BoundSelect {
+  table=BoundBaseTableRef { table=y, oid=0 },
+  columns=["y.a", "y.b", "y.c"],
+  groupBy=[],
+  having=,
+  where=,
+  limit=,
+  offset=,
+  order_by=[],
+  is_distinct=false,
+  ctes=,
+}
+[       OK ] BinderTest.BindSelectFromMultipleCol (1 ms)
+[----------] 1 test from BinderTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"BinderTest.BindSelectFromMultipleCol" end time: Oct 01 20:02 EEST
+"BinderTest.BindSelectFromMultipleCol" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/172 Testing: BinderTest.BindSelectExpr
+11/172 Test: BinderTest.BindSelectExpr
+Command: "/home/omar/Desktop/bustub/build/test/binder_test" "--gtest_filter=BinderTest.BindSelectExpr" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/binder_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"BinderTest.BindSelectExpr" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = BinderTest.BindSelectExpr
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BinderTest
+[ RUN      ] BinderTest.BindSelectExpr
+BoundSelect {
+  table=BoundBaseTableRef { table=y, oid=0 },
+  columns=["max([\"y.a\"])", "min([\"y.b\"])", "first([\"y.c\"])"],
+  groupBy=[],
+  having=,
+  where=,
+  limit=,
+  offset=,
+  order_by=[],
+  is_distinct=false,
+  ctes=,
+}
+[       OK ] BinderTest.BindSelectExpr (1 ms)
+[----------] 1 test from BinderTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"BinderTest.BindSelectExpr" end time: Oct 01 20:02 EEST
+"BinderTest.BindSelectExpr" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/172 Testing: BinderTest.BindAgg
+12/172 Test: BinderTest.BindAgg
+Command: "/home/omar/Desktop/bustub/build/test/binder_test" "--gtest_filter=BinderTest.BindAgg" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/binder_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"BinderTest.BindAgg" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = BinderTest.BindAgg
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BinderTest
+[ RUN      ] BinderTest.BindAgg
+BoundSelect {
+  table=BoundBaseTableRef { table=y, oid=0 },
+  columns=["y.z", "max([\"y.a\"])", "min([\"y.b\"])", "first([\"y.c\"])"],
+  groupBy=["y.z"],
+  having=(max(["y.a"])>0),
+  where=,
+  limit=,
+  offset=,
+  order_by=[],
+  is_distinct=false,
+  ctes=,
+}
+[       OK ] BinderTest.BindAgg (1 ms)
+[----------] 1 test from BinderTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"BinderTest.BindAgg" end time: Oct 01 20:02 EEST
+"BinderTest.BindAgg" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/172 Testing: BinderTest.BindCrossJoin
+13/172 Test: BinderTest.BindCrossJoin
+Command: "/home/omar/Desktop/bustub/build/test/binder_test" "--gtest_filter=BinderTest.BindCrossJoin" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/binder_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"BinderTest.BindCrossJoin" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = BinderTest.BindCrossJoin
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BinderTest
+[ RUN      ] BinderTest.BindCrossJoin
+BoundSelect {
+  table=BoundCrossProductRef { left=BoundBaseTableRef { table=a, oid=1 }, right=BoundBaseTableRef { table=b, oid=2 } },
+  columns=["a.x", "a.y", "b.x", "b.y"],
+  groupBy=[],
+  having=,
+  where=(a.x=b.y),
+  limit=,
+  offset=,
+  order_by=[],
+  is_distinct=false,
+  ctes=,
+}
+[       OK ] BinderTest.BindCrossJoin (1 ms)
+[----------] 1 test from BinderTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"BinderTest.BindCrossJoin" end time: Oct 01 20:02 EEST
+"BinderTest.BindCrossJoin" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/172 Testing: BinderTest.BindCrossThreeWayJoin
+14/172 Test: BinderTest.BindCrossThreeWayJoin
+Command: "/home/omar/Desktop/bustub/build/test/binder_test" "--gtest_filter=BinderTest.BindCrossThreeWayJoin" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/binder_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"BinderTest.BindCrossThreeWayJoin" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = BinderTest.BindCrossThreeWayJoin
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BinderTest
+[ RUN      ] BinderTest.BindCrossThreeWayJoin
+BoundSelect {
+  table=BoundCrossProductRef { left=BoundCrossProductRef { left=BoundBaseTableRef { table=a, oid=1 }, right=BoundBaseTableRef { table=b, oid=2 } }, right=BoundBaseTableRef { table=y, oid=0 } },
+  columns=["a.x", "a.y", "b.x", "b.y", "y.x", "y.z", "y.a", "y.b", "y.c"],
+  groupBy=[],
+  having=,
+  where=((a.x=b.y)and(a.x=y.x)),
+  limit=,
+  offset=,
+  order_by=[],
+  is_distinct=false,
+  ctes=,
+}
+[       OK ] BinderTest.BindCrossThreeWayJoin (1 ms)
+[----------] 1 test from BinderTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"BinderTest.BindCrossThreeWayJoin" end time: Oct 01 20:02 EEST
+"BinderTest.BindCrossThreeWayJoin" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/172 Testing: BinderTest.BindJoin
+15/172 Test: BinderTest.BindJoin
+Command: "/home/omar/Desktop/bustub/build/test/binder_test" "--gtest_filter=BinderTest.BindJoin" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/binder_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"BinderTest.BindJoin" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = BinderTest.BindJoin
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BinderTest
+[ RUN      ] BinderTest.BindJoin
+BoundSelect {
+  table=BoundJoin { type=Inner, left=BoundBaseTableRef { table=a, oid=1 }, right=BoundBaseTableRef { table=b, oid=2 }, condition=(a.x=b.y) },
+  columns=["a.x", "a.y", "b.x", "b.y"],
+  groupBy=[],
+  having=,
+  where=,
+  limit=,
+  offset=,
+  order_by=[],
+  is_distinct=false,
+  ctes=,
+}
+[       OK ] BinderTest.BindJoin (1 ms)
+[----------] 1 test from BinderTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"BinderTest.BindJoin" end time: Oct 01 20:02 EEST
+"BinderTest.BindJoin" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/172 Testing: BinderTest.BindThreeWayJoin
+16/172 Test: BinderTest.BindThreeWayJoin
+Command: "/home/omar/Desktop/bustub/build/test/binder_test" "--gtest_filter=BinderTest.BindThreeWayJoin" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/binder_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"BinderTest.BindThreeWayJoin" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = BinderTest.BindThreeWayJoin
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BinderTest
+[ RUN      ] BinderTest.BindThreeWayJoin
+BoundSelect {
+  table=BoundJoin { type=Inner, left=BoundJoin { type=Inner, left=BoundBaseTableRef { table=a, oid=1 }, right=BoundBaseTableRef { table=b, oid=2 }, condition=(a.x=b.y) }, right=BoundBaseTableRef { table=y, oid=0 }, condition=(a.x=y.x) },
+  columns=["a.x", "a.y", "b.x", "b.y", "y.x", "y.z", "y.a", "y.b", "y.c"],
+  groupBy=[],
+  having=,
+  where=,
+  limit=,
+  offset=,
+  order_by=[],
+  is_distinct=false,
+  ctes=,
+}
+[       OK ] BinderTest.BindThreeWayJoin (1 ms)
+[----------] 1 test from BinderTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"BinderTest.BindThreeWayJoin" end time: Oct 01 20:02 EEST
+"BinderTest.BindThreeWayJoin" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/172 Testing: BinderTest.BindSelectStar
+17/172 Test: BinderTest.BindSelectStar
+Command: "/home/omar/Desktop/bustub/build/test/binder_test" "--gtest_filter=BinderTest.BindSelectStar" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/binder_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"BinderTest.BindSelectStar" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = BinderTest.BindSelectStar
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BinderTest
+[ RUN      ] BinderTest.BindSelectStar
+BoundSelect {
+  table=BoundBaseTableRef { table=y, oid=0 },
+  columns=["y.x", "y.z", "y.a", "y.b", "y.c"],
+  groupBy=[],
+  having=,
+  where=,
+  limit=,
+  offset=,
+  order_by=[],
+  is_distinct=false,
+  ctes=,
+}
+[       OK ] BinderTest.BindSelectStar (0 ms)
+[----------] 1 test from BinderTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"BinderTest.BindSelectStar" end time: Oct 01 20:02 EEST
+"BinderTest.BindSelectStar" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/172 Testing: BinderTest.BindCountStar
+18/172 Test: BinderTest.BindCountStar
+Command: "/home/omar/Desktop/bustub/build/test/binder_test" "--gtest_filter=BinderTest.BindCountStar" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/binder_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"BinderTest.BindCountStar" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = BinderTest.BindCountStar
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BinderTest
+[ RUN      ] BinderTest.BindCountStar
+BoundSelect {
+  table=BoundBaseTableRef { table=y, oid=0 },
+  columns=["count_star([])"],
+  groupBy=[],
+  having=,
+  where=,
+  limit=,
+  offset=,
+  order_by=[],
+  is_distinct=false,
+  ctes=,
+}
+[       OK ] BinderTest.BindCountStar (1 ms)
+[----------] 1 test from BinderTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"BinderTest.BindCountStar" end time: Oct 01 20:02 EEST
+"BinderTest.BindCountStar" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/172 Testing: BinderTest.BindSelectTableColumn
+19/172 Test: BinderTest.BindSelectTableColumn
+Command: "/home/omar/Desktop/bustub/build/test/binder_test" "--gtest_filter=BinderTest.BindSelectTableColumn" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/binder_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"BinderTest.BindSelectTableColumn" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = BinderTest.BindSelectTableColumn
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BinderTest
+[ RUN      ] BinderTest.BindSelectTableColumn
+BoundSelect {
+  table=BoundBaseTableRef { table=y, oid=0 },
+  columns=["y.x"],
+  groupBy=[],
+  having=,
+  where=,
+  limit=,
+  offset=,
+  order_by=[],
+  is_distinct=false,
+  ctes=,
+}
+[       OK ] BinderTest.BindSelectTableColumn (0 ms)
+[----------] 1 test from BinderTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"BinderTest.BindSelectTableColumn" end time: Oct 01 20:02 EEST
+"BinderTest.BindSelectTableColumn" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/172 Testing: BinderTest.FailBindUnknownColumn
+20/172 Test: BinderTest.FailBindUnknownColumn
+Command: "/home/omar/Desktop/bustub/build/test/binder_test" "--gtest_filter=BinderTest.FailBindUnknownColumn" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/binder_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"BinderTest.FailBindUnknownColumn" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = BinderTest.FailBindUnknownColumn
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BinderTest
+[ RUN      ] BinderTest.FailBindUnknownColumn
+Message :: column zzzz not found
+Message :: column y.zzzz not found
+Message :: column x.zzzz not found
+Message :: unsupported TableReferenceType
+[       OK ] BinderTest.FailBindUnknownColumn (3 ms)
+[----------] 1 test from BinderTest (3 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (3 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"BinderTest.FailBindUnknownColumn" end time: Oct 01 20:02 EEST
+"BinderTest.FailBindUnknownColumn" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/172 Testing: BinderTest.BindCreateTable
+21/172 Test: BinderTest.BindCreateTable
+Command: "/home/omar/Desktop/bustub/build/test/binder_test" "--gtest_filter=BinderTest.BindCreateTable" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/binder_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"BinderTest.BindCreateTable" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = BinderTest.BindCreateTable
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BinderTest
+[ RUN      ] BinderTest.BindCreateTable
+[       OK ] BinderTest.BindCreateTable (0 ms)
+[----------] 1 test from BinderTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"BinderTest.BindCreateTable" end time: Oct 01 20:02 EEST
+"BinderTest.BindCreateTable" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/172 Testing: BinderTest.BindInsert
+22/172 Test: BinderTest.BindInsert
+Command: "/home/omar/Desktop/bustub/build/test/binder_test" "--gtest_filter=BinderTest.BindInsert" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/binder_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"BinderTest.BindInsert" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = BinderTest.BindInsert
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BinderTest
+[ RUN      ] BinderTest.BindInsert
+[       OK ] BinderTest.BindInsert (0 ms)
+[----------] 1 test from BinderTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"BinderTest.BindInsert" end time: Oct 01 20:02 EEST
+"BinderTest.BindInsert" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/172 Testing: BinderTest.BindInsertSelect
+23/172 Test: BinderTest.BindInsertSelect
+Command: "/home/omar/Desktop/bustub/build/test/binder_test" "--gtest_filter=BinderTest.BindInsertSelect" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/binder_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"BinderTest.BindInsertSelect" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = BinderTest.BindInsertSelect
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BinderTest
+[ RUN      ] BinderTest.BindInsertSelect
+[       OK ] BinderTest.BindInsertSelect (1 ms)
+[----------] 1 test from BinderTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"BinderTest.BindInsertSelect" end time: Oct 01 20:02 EEST
+"BinderTest.BindInsertSelect" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/172 Testing: BinderTest.BindVarchar
+24/172 Test: BinderTest.BindVarchar
+Command: "/home/omar/Desktop/bustub/build/test/binder_test" "--gtest_filter=BinderTest.BindVarchar" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/binder_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"BinderTest.BindVarchar" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = BinderTest.BindVarchar
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BinderTest
+[ RUN      ] BinderTest.BindVarchar
+[       OK ] BinderTest.BindVarchar (1 ms)
+[----------] 1 test from BinderTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"BinderTest.BindVarchar" end time: Oct 01 20:02 EEST
+"BinderTest.BindVarchar" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/172 Testing: BinderTest.BindAliasInAgg
+25/172 Test: BinderTest.BindAliasInAgg
+Command: "/home/omar/Desktop/bustub/build/test/binder_test" "--gtest_filter=BinderTest.BindAliasInAgg" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/binder_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"BinderTest.BindAliasInAgg" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = BinderTest.BindAliasInAgg
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BinderTest
+[ RUN      ] BinderTest.BindAliasInAgg
+BoundSelect {
+  table=BoundBaseTableRef { table=y, oid=0 },
+  columns=["y.z", "(max([\"y.a\"]) as max_a)", "min([\"y.b\"])", "first([\"y.c\"])"],
+  groupBy=["y.z"],
+  having=(max(["y.a"])>0),
+  where=,
+  limit=,
+  offset=,
+  order_by=[],
+  is_distinct=false,
+  ctes=,
+}
+[       OK ] BinderTest.BindAliasInAgg (1 ms)
+[----------] 1 test from BinderTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"BinderTest.BindAliasInAgg" end time: Oct 01 20:02 EEST
+"BinderTest.BindAliasInAgg" time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/172 Testing: BinderTest.BindAlias
+26/172 Test: BinderTest.BindAlias
+Command: "/home/omar/Desktop/bustub/build/test/binder_test" "--gtest_filter=BinderTest.BindAlias" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/binder_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"BinderTest.BindAlias" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = BinderTest.BindAlias
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BinderTest
+[ RUN      ] BinderTest.BindAlias
+BoundSelect {
+  table=BoundBaseTableRef { table=y, oid=0 },
+  columns=["(y.a as a2)"],
+  groupBy=[],
+  having=,
+  where=,
+  limit=,
+  offset=,
+  order_by=[],
+  is_distinct=false,
+  ctes=,
+}
+[       OK ] BinderTest.BindAlias (1 ms)
+[----------] 1 test from BinderTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"BinderTest.BindAlias" end time: Oct 01 20:02 EEST
+"BinderTest.BindAlias" time elapsed: 00:00:00
+----------------------------------------------------------
+
+27/172 Testing: BinderTest.BindUnaryOp
+27/172 Test: BinderTest.BindUnaryOp
+Command: "/home/omar/Desktop/bustub/build/test/binder_test" "--gtest_filter=BinderTest.BindUnaryOp" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/binder_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"BinderTest.BindUnaryOp" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = BinderTest.BindUnaryOp
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BinderTest
+[ RUN      ] BinderTest.BindUnaryOp
+BoundSelect {
+  table=BoundBaseTableRef { table=y, oid=0 },
+  columns=["(-y.x)"],
+  groupBy=[],
+  having=,
+  where=,
+  limit=,
+  offset=,
+  order_by=[],
+  is_distinct=false,
+  ctes=,
+}
+[       OK ] BinderTest.BindUnaryOp (1 ms)
+[----------] 1 test from BinderTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"BinderTest.BindUnaryOp" end time: Oct 01 20:02 EEST
+"BinderTest.BindUnaryOp" time elapsed: 00:00:00
+----------------------------------------------------------
+
+28/172 Testing: BinderTest.BindBinaryOp
+28/172 Test: BinderTest.BindBinaryOp
+Command: "/home/omar/Desktop/bustub/build/test/binder_test" "--gtest_filter=BinderTest.BindBinaryOp" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/binder_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"BinderTest.BindBinaryOp" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = BinderTest.BindBinaryOp
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BinderTest
+[ RUN      ] BinderTest.BindBinaryOp
+BoundSelect {
+  table=BoundBaseTableRef { table=y, oid=0 },
+  columns=["(y.x+y.z)", "(y.z+y.x)", "(y.x*y.z)", "(y.x/y.z)"],
+  groupBy=[],
+  having=,
+  where=,
+  limit=,
+  offset=,
+  order_by=[],
+  is_distinct=false,
+  ctes=,
+}
+[       OK ] BinderTest.BindBinaryOp (1 ms)
+[----------] 1 test from BinderTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"BinderTest.BindBinaryOp" end time: Oct 01 20:02 EEST
+"BinderTest.BindBinaryOp" time elapsed: 00:00:00
+----------------------------------------------------------
+
+29/172 Testing: BinderTest.BindUncorrelatedSubquery
+29/172 Test: BinderTest.BindUncorrelatedSubquery
+Command: ""
+Directory: /home/omar/Desktop/bustub/build/test
+"BinderTest.BindUncorrelatedSubquery" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BinderTest.BindUncorrelatedSubquery" end time: Oct 01 20:02 EEST
+"BinderTest.BindUncorrelatedSubquery" time elapsed: 00:00:00
+----------------------------------------------------------
+
+30/172 Testing: BinderTest.BindUpdate
+30/172 Test: BinderTest.BindUpdate
+Command: ""
+Directory: /home/omar/Desktop/bustub/build/test
+"BinderTest.BindUpdate" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BinderTest.BindUpdate" end time: Oct 01 20:02 EEST
+"BinderTest.BindUpdate" time elapsed: 00:00:00
+----------------------------------------------------------
+
+31/172 Testing: BinderTest.BindDelete
+31/172 Test: BinderTest.BindDelete
+Command: ""
+Directory: /home/omar/Desktop/bustub/build/test
+"BinderTest.BindDelete" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BinderTest.BindDelete" end time: Oct 01 20:02 EEST
+"BinderTest.BindDelete" time elapsed: 00:00:00
+----------------------------------------------------------
+
+32/172 Testing: BufferPoolManagerTest.VeryBasicTest
+32/172 Test: BufferPoolManagerTest.VeryBasicTest
+Command: ""
+Directory: /home/omar/Desktop/bustub/build/test
+"BufferPoolManagerTest.VeryBasicTest" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BufferPoolManagerTest.VeryBasicTest" end time: Oct 01 20:02 EEST
+"BufferPoolManagerTest.VeryBasicTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+33/172 Testing: BufferPoolManagerTest.PagePinEasyTest
+33/172 Test: BufferPoolManagerTest.PagePinEasyTest
+Command: ""
+Directory: /home/omar/Desktop/bustub/build/test
+"BufferPoolManagerTest.PagePinEasyTest" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BufferPoolManagerTest.PagePinEasyTest" end time: Oct 01 20:02 EEST
+"BufferPoolManagerTest.PagePinEasyTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+34/172 Testing: BufferPoolManagerTest.PagePinMediumTest
+34/172 Test: BufferPoolManagerTest.PagePinMediumTest
+Command: ""
+Directory: /home/omar/Desktop/bustub/build/test
+"BufferPoolManagerTest.PagePinMediumTest" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BufferPoolManagerTest.PagePinMediumTest" end time: Oct 01 20:02 EEST
+"BufferPoolManagerTest.PagePinMediumTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+35/172 Testing: BufferPoolManagerTest.PageAccessTest
+35/172 Test: BufferPoolManagerTest.PageAccessTest
+Command: ""
+Directory: /home/omar/Desktop/bustub/build/test
+"BufferPoolManagerTest.PageAccessTest" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BufferPoolManagerTest.PageAccessTest" end time: Oct 01 20:02 EEST
+"BufferPoolManagerTest.PageAccessTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+36/172 Testing: BufferPoolManagerTest.ContentionTest
+36/172 Test: BufferPoolManagerTest.ContentionTest
+Command: ""
+Directory: /home/omar/Desktop/bustub/build/test
+"BufferPoolManagerTest.ContentionTest" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BufferPoolManagerTest.ContentionTest" end time: Oct 01 20:02 EEST
+"BufferPoolManagerTest.ContentionTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+37/172 Testing: BufferPoolManagerTest.DeadlockTest
+37/172 Test: BufferPoolManagerTest.DeadlockTest
+Command: ""
+Directory: /home/omar/Desktop/bustub/build/test
+"BufferPoolManagerTest.DeadlockTest" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BufferPoolManagerTest.DeadlockTest" end time: Oct 01 20:02 EEST
+"BufferPoolManagerTest.DeadlockTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+38/172 Testing: BufferPoolManagerTest.EvictableTest
+38/172 Test: BufferPoolManagerTest.EvictableTest
+Command: ""
+Directory: /home/omar/Desktop/bustub/build/test
+"BufferPoolManagerTest.EvictableTest" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BufferPoolManagerTest.EvictableTest" end time: Oct 01 20:02 EEST
+"BufferPoolManagerTest.EvictableTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+39/172 Testing: ClockReplacerTest.SampleTest
+39/172 Test: ClockReplacerTest.SampleTest
+Command: ""
+Directory: /home/omar/Desktop/bustub/build/test
+"ClockReplacerTest.SampleTest" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ClockReplacerTest.SampleTest" end time: Oct 01 20:02 EEST
+"ClockReplacerTest.SampleTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+40/172 Testing: LRUKReplacerTest.SampleTest
+40/172 Test: LRUKReplacerTest.SampleTest
+Command: "/home/omar/Desktop/bustub/build/test/lru_k_replacer_test" "--gtest_filter=LRUKReplacerTest.SampleTest" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/lru_k_replacer_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"LRUKReplacerTest.SampleTest" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = LRUKReplacerTest.SampleTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LRUKReplacerTest
+[ RUN      ] LRUKReplacerTest.SampleTest
+Recorded access for frame id: 1 --> 1
+Recorded access for frame id: 2 --> 2
+Recorded access for frame id: 3 --> 3
+Recorded access for frame id: 4 --> 4
+Recorded access for frame id: 5 --> 5
+Recorded access for frame id: 6 --> 6
+Recorded access for frame id: 1 --> 7
+Recorded access for frame id: 3 --> 8
+Recorded access for frame id: 4 --> 9
+Recorded access for frame id: 5 --> 10
+Recorded access for frame id: 4 --> 11
+Recorded access for frame id: 1 --> 12
+Recorded access for frame id: 1 --> 13
+Recorded access for frame id: 1 --> 14
+[       OK ] LRUKReplacerTest.SampleTest (0 ms)
+[----------] 1 test from LRUKReplacerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"LRUKReplacerTest.SampleTest" end time: Oct 01 20:02 EEST
+"LRUKReplacerTest.SampleTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+41/172 Testing: LRUReplacerTest.SampleTest
+41/172 Test: LRUReplacerTest.SampleTest
+Command: ""
+Directory: /home/omar/Desktop/bustub/build/test
+"LRUReplacerTest.SampleTest" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"LRUReplacerTest.SampleTest" end time: Oct 01 20:02 EEST
+"LRUReplacerTest.SampleTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+42/172 Testing: RWLatchTest.BasicTest
+42/172 Test: RWLatchTest.BasicTest
+Command: "/home/omar/Desktop/bustub/build/test/rwlatch_test" "--gtest_filter=RWLatchTest.BasicTest" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/rwlatch_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"RWLatchTest.BasicTest" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = RWLatchTest.BasicTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RWLatchTest
+[ RUN      ] RWLatchTest.BasicTest
+[       OK ] RWLatchTest.BasicTest (37 ms)
+[----------] 1 test from RWLatchTest (37 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (37 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"RWLatchTest.BasicTest" end time: Oct 01 20:02 EEST
+"RWLatchTest.BasicTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+43/172 Testing: ExtendibleHTableConcurrentTest.InsertTest1
+43/172 Test: ExtendibleHTableConcurrentTest.InsertTest1
+Command: ""
+Directory: /home/omar/Desktop/bustub/build/test
+"ExtendibleHTableConcurrentTest.InsertTest1" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ExtendibleHTableConcurrentTest.InsertTest1" end time: Oct 01 20:02 EEST
+"ExtendibleHTableConcurrentTest.InsertTest1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+44/172 Testing: ExtendibleHTableConcurrentTest.InsertTest2
+44/172 Test: ExtendibleHTableConcurrentTest.InsertTest2
+Command: ""
+Directory: /home/omar/Desktop/bustub/build/test
+"ExtendibleHTableConcurrentTest.InsertTest2" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ExtendibleHTableConcurrentTest.InsertTest2" end time: Oct 01 20:02 EEST
+"ExtendibleHTableConcurrentTest.InsertTest2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+45/172 Testing: ExtendibleHTableConcurrentTest.DeleteTest1
+45/172 Test: ExtendibleHTableConcurrentTest.DeleteTest1
+Command: ""
+Directory: /home/omar/Desktop/bustub/build/test
+"ExtendibleHTableConcurrentTest.DeleteTest1" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ExtendibleHTableConcurrentTest.DeleteTest1" end time: Oct 01 20:02 EEST
+"ExtendibleHTableConcurrentTest.DeleteTest1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+46/172 Testing: ExtendibleHTableConcurrentTest.DeleteTest2
+46/172 Test: ExtendibleHTableConcurrentTest.DeleteTest2
+Command: ""
+Directory: /home/omar/Desktop/bustub/build/test
+"ExtendibleHTableConcurrentTest.DeleteTest2" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ExtendibleHTableConcurrentTest.DeleteTest2" end time: Oct 01 20:02 EEST
+"ExtendibleHTableConcurrentTest.DeleteTest2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+47/172 Testing: ExtendibleHTableConcurrentTest.MixTest1
+47/172 Test: ExtendibleHTableConcurrentTest.MixTest1
+Command: ""
+Directory: /home/omar/Desktop/bustub/build/test
+"ExtendibleHTableConcurrentTest.MixTest1" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ExtendibleHTableConcurrentTest.MixTest1" end time: Oct 01 20:02 EEST
+"ExtendibleHTableConcurrentTest.MixTest1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+48/172 Testing: ExtendibleHTableConcurrentTest.MixTest2
+48/172 Test: ExtendibleHTableConcurrentTest.MixTest2
+Command: ""
+Directory: /home/omar/Desktop/bustub/build/test
+"ExtendibleHTableConcurrentTest.MixTest2" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ExtendibleHTableConcurrentTest.MixTest2" end time: Oct 01 20:02 EEST
+"ExtendibleHTableConcurrentTest.MixTest2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+49/172 Testing: ExtendibleHTableTest.InsertTest1
+49/172 Test: ExtendibleHTableTest.InsertTest1
+Command: ""
+Directory: /home/omar/Desktop/bustub/build/test
+"ExtendibleHTableTest.InsertTest1" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ExtendibleHTableTest.InsertTest1" end time: Oct 01 20:02 EEST
+"ExtendibleHTableTest.InsertTest1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+50/172 Testing: ExtendibleHTableTest.InsertTest2
+50/172 Test: ExtendibleHTableTest.InsertTest2
+Command: ""
+Directory: /home/omar/Desktop/bustub/build/test
+"ExtendibleHTableTest.InsertTest2" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ExtendibleHTableTest.InsertTest2" end time: Oct 01 20:02 EEST
+"ExtendibleHTableTest.InsertTest2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+51/172 Testing: ExtendibleHTableTest.RemoveTest1
+51/172 Test: ExtendibleHTableTest.RemoveTest1
+Command: ""
+Directory: /home/omar/Desktop/bustub/build/test
+"ExtendibleHTableTest.RemoveTest1" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ExtendibleHTableTest.RemoveTest1" end time: Oct 01 20:02 EEST
+"ExtendibleHTableTest.RemoveTest1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+52/172 Testing: HyperLogLogTest.BasicTest1
+52/172 Test: HyperLogLogTest.BasicTest1
+Command: "/home/omar/Desktop/bustub/build/test/hyperloglog_test" "--gtest_filter=HyperLogLogTest.BasicTest1" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/hyperloglog_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"HyperLogLogTest.BasicTest1" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = HyperLogLogTest.BasicTest1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HyperLogLogTest
+[ RUN      ] HyperLogLogTest.BasicTest1
+[       OK ] HyperLogLogTest.BasicTest1 (0 ms)
+[----------] 1 test from HyperLogLogTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"HyperLogLogTest.BasicTest1" end time: Oct 01 20:02 EEST
+"HyperLogLogTest.BasicTest1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+53/172 Testing: HyperLogLogTest.BasicTest2
+53/172 Test: HyperLogLogTest.BasicTest2
+Command: "/home/omar/Desktop/bustub/build/test/hyperloglog_test" "--gtest_filter=HyperLogLogTest.BasicTest2" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/hyperloglog_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"HyperLogLogTest.BasicTest2" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = HyperLogLogTest.BasicTest2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HyperLogLogTest
+[ RUN      ] HyperLogLogTest.BasicTest2
+[       OK ] HyperLogLogTest.BasicTest2 (0 ms)
+[----------] 1 test from HyperLogLogTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"HyperLogLogTest.BasicTest2" end time: Oct 01 20:02 EEST
+"HyperLogLogTest.BasicTest2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+54/172 Testing: HyperLogLogTest.EdgeTest1
+54/172 Test: HyperLogLogTest.EdgeTest1
+Command: "/home/omar/Desktop/bustub/build/test/hyperloglog_test" "--gtest_filter=HyperLogLogTest.EdgeTest1" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/hyperloglog_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"HyperLogLogTest.EdgeTest1" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = HyperLogLogTest.EdgeTest1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HyperLogLogTest
+[ RUN      ] HyperLogLogTest.EdgeTest1
+[       OK ] HyperLogLogTest.EdgeTest1 (0 ms)
+[----------] 1 test from HyperLogLogTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"HyperLogLogTest.EdgeTest1" end time: Oct 01 20:02 EEST
+"HyperLogLogTest.EdgeTest1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+55/172 Testing: HyperLogLogTest.EdgeTest2
+55/172 Test: HyperLogLogTest.EdgeTest2
+Command: "/home/omar/Desktop/bustub/build/test/hyperloglog_test" "--gtest_filter=HyperLogLogTest.EdgeTest2" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/hyperloglog_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"HyperLogLogTest.EdgeTest2" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = HyperLogLogTest.EdgeTest2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HyperLogLogTest
+[ RUN      ] HyperLogLogTest.EdgeTest2
+[       OK ] HyperLogLogTest.EdgeTest2 (0 ms)
+[----------] 1 test from HyperLogLogTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"HyperLogLogTest.EdgeTest2" end time: Oct 01 20:02 EEST
+"HyperLogLogTest.EdgeTest2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+56/172 Testing: HyperLogLogTest.BasicParallelTest
+56/172 Test: HyperLogLogTest.BasicParallelTest
+Command: "/home/omar/Desktop/bustub/build/test/hyperloglog_test" "--gtest_filter=HyperLogLogTest.BasicParallelTest" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/hyperloglog_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"HyperLogLogTest.BasicParallelTest" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = HyperLogLogTest.BasicParallelTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HyperLogLogTest
+[ RUN      ] HyperLogLogTest.BasicParallelTest
+[       OK ] HyperLogLogTest.BasicParallelTest (27 ms)
+[----------] 1 test from HyperLogLogTest (27 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (27 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"HyperLogLogTest.BasicParallelTest" end time: Oct 01 20:02 EEST
+"HyperLogLogTest.BasicParallelTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+57/172 Testing: HyperLogLogTest.ParallelTest1
+57/172 Test: HyperLogLogTest.ParallelTest1
+Command: "/home/omar/Desktop/bustub/build/test/hyperloglog_test" "--gtest_filter=HyperLogLogTest.ParallelTest1" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/hyperloglog_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"HyperLogLogTest.ParallelTest1" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = HyperLogLogTest.ParallelTest1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HyperLogLogTest
+[ RUN      ] HyperLogLogTest.ParallelTest1
+[       OK ] HyperLogLogTest.ParallelTest1 (2376 ms)
+[----------] 1 test from HyperLogLogTest (2376 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2376 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   2.42 sec
+----------------------------------------------------------
+Test Passed.
+"HyperLogLogTest.ParallelTest1" end time: Oct 01 20:02 EEST
+"HyperLogLogTest.ParallelTest1" time elapsed: 00:00:02
+----------------------------------------------------------
+
+58/172 Testing: HyperLogLogTest.PrestoBasicTest1
+58/172 Test: HyperLogLogTest.PrestoBasicTest1
+Command: "/home/omar/Desktop/bustub/build/test/hyperloglog_test" "--gtest_filter=HyperLogLogTest.PrestoBasicTest1" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/hyperloglog_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"HyperLogLogTest.PrestoBasicTest1" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = HyperLogLogTest.PrestoBasicTest1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HyperLogLogTest
+[ RUN      ] HyperLogLogTest.PrestoBasicTest1
+[       OK ] HyperLogLogTest.PrestoBasicTest1 (0 ms)
+[----------] 1 test from HyperLogLogTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"HyperLogLogTest.PrestoBasicTest1" end time: Oct 01 20:02 EEST
+"HyperLogLogTest.PrestoBasicTest1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+59/172 Testing: HyperLogLogTest.PrestoCase1
+59/172 Test: HyperLogLogTest.PrestoCase1
+Command: "/home/omar/Desktop/bustub/build/test/hyperloglog_test" "--gtest_filter=HyperLogLogTest.PrestoCase1" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/hyperloglog_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"HyperLogLogTest.PrestoCase1" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = HyperLogLogTest.PrestoCase1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HyperLogLogTest
+[ RUN      ] HyperLogLogTest.PrestoCase1
+[       OK ] HyperLogLogTest.PrestoCase1 (0 ms)
+[----------] 1 test from HyperLogLogTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"HyperLogLogTest.PrestoCase1" end time: Oct 01 20:02 EEST
+"HyperLogLogTest.PrestoCase1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+60/172 Testing: HyperLogLogTest.PrestoCase2
+60/172 Test: HyperLogLogTest.PrestoCase2
+Command: "/home/omar/Desktop/bustub/build/test/hyperloglog_test" "--gtest_filter=HyperLogLogTest.PrestoCase2" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/hyperloglog_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"HyperLogLogTest.PrestoCase2" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = HyperLogLogTest.PrestoCase2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HyperLogLogTest
+[ RUN      ] HyperLogLogTest.PrestoCase2
+[       OK ] HyperLogLogTest.PrestoCase2 (0 ms)
+[----------] 1 test from HyperLogLogTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"HyperLogLogTest.PrestoCase2" end time: Oct 01 20:02 EEST
+"HyperLogLogTest.PrestoCase2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+61/172 Testing: HyperLogLogTest.PrestoEdgeCase
+61/172 Test: HyperLogLogTest.PrestoEdgeCase
+Command: "/home/omar/Desktop/bustub/build/test/hyperloglog_test" "--gtest_filter=HyperLogLogTest.PrestoEdgeCase" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/hyperloglog_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"HyperLogLogTest.PrestoEdgeCase" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = HyperLogLogTest.PrestoEdgeCase
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HyperLogLogTest
+[ RUN      ] HyperLogLogTest.PrestoEdgeCase
+[       OK ] HyperLogLogTest.PrestoEdgeCase (0 ms)
+[----------] 1 test from HyperLogLogTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"HyperLogLogTest.PrestoEdgeCase" end time: Oct 01 20:02 EEST
+"HyperLogLogTest.PrestoEdgeCase" time elapsed: 00:00:00
+----------------------------------------------------------
+
+62/172 Testing: ORSetTest.AddRemoveTest
+62/172 Test: ORSetTest.AddRemoveTest
+Command: "/home/omar/Desktop/bustub/build/test/orset_test" "--gtest_filter=ORSetTest.AddRemoveTest" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/orset_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"ORSetTest.AddRemoveTest" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = ORSetTest.AddRemoveTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ORSetTest
+[ RUN      ] ORSetTest.AddRemoveTest
+
+Exception Type :: Not implemented, Message :: ORSet<T>::Contains is not implemented
+
+Stack trace (most recent call last):
+#21   Object "[0xffffffffffffffff]", at 0xffffffffffffffff, in 
+#20   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x562cd6f018e4, in 
+#19   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7f4fd9623b48, in __libc_start_main
+#18   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7f4fd9623a8f, in 
+#17   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x562cd70247a5, in 
+#16   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x562cd70248dc, in 
+#15   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x562cd6fb3e09, in 
+#14   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x562cd6fe86ba, in 
+#13   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x562cd6fb7703, in 
+#12   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x562cd6f914d4, in 
+#11   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x562cd6f901b7, in 
+#10   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x562cd6f8ea2d, in 
+#9    Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x562cd6fe5827, in 
+#8    Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x562cd6f01bb5, in 
+#7    Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x562cd6f35095, in 
+#6    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7f4fd9ab7167, in __cxa_throw
+#5    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7f4fd9ab6f06, in std::terminate()
+#4    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7f4fd9ab6e9b, in 
+#3    Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x562cd6f229cf, in 
+#2    Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x562cd6f22822, in 
+#1    Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x562cd6f1dce4, in 
+#0    Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x562cd6f23638, in 
+<end of output>
+Test time =   0.13 sec
+----------------------------------------------------------
+Test Failed.
+"ORSetTest.AddRemoveTest" end time: Oct 01 20:02 EEST
+"ORSetTest.AddRemoveTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+63/172 Testing: ORSetTest.MergeTest
+63/172 Test: ORSetTest.MergeTest
+Command: "/home/omar/Desktop/bustub/build/test/orset_test" "--gtest_filter=ORSetTest.MergeTest" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/orset_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"ORSetTest.MergeTest" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = ORSetTest.MergeTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ORSetTest
+[ RUN      ] ORSetTest.MergeTest
+
+Exception Type :: Not implemented, Message :: ORSet<T>::Add is not implemented
+
+Stack trace (most recent call last):
+#21   Object "[0xffffffffffffffff]", at 0xffffffffffffffff, in 
+#20   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x56099cd808e4, in 
+#19   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7fdea1823b48, in __libc_start_main
+#18   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7fdea1823a8f, in 
+#17   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x56099cea37a5, in 
+#16   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x56099cea38dc, in 
+#15   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x56099ce32e09, in 
+#14   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x56099ce676ba, in 
+#13   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x56099ce36703, in 
+#12   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x56099ce104d4, in 
+#11   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x56099ce0f1b7, in 
+#10   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x56099ce0da2d, in 
+#9    Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x56099ce64827, in 
+#8    Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x56099cd81f4d, in 
+#7    Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x56099cdb424a, in 
+#6    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7fdea1cb7167, in __cxa_throw
+#5    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7fdea1cb6f06, in std::terminate()
+#4    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7fdea1cb6e9b, in 
+#3    Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x56099cda19cf, in 
+#2    Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x56099cda1822, in 
+#1    Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x56099cd9cce4, in 
+#0    Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x56099cda2638, in 
+<end of output>
+Test time =   0.13 sec
+----------------------------------------------------------
+Test Failed.
+"ORSetTest.MergeTest" end time: Oct 01 20:02 EEST
+"ORSetTest.MergeTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+64/172 Testing: ORSetTest.AddWinsTest
+64/172 Test: ORSetTest.AddWinsTest
+Command: "/home/omar/Desktop/bustub/build/test/orset_test" "--gtest_filter=ORSetTest.AddWinsTest" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/orset_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"ORSetTest.AddWinsTest" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = ORSetTest.AddWinsTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ORSetTest
+[ RUN      ] ORSetTest.AddWinsTest
+
+Exception Type :: Not implemented, Message :: ORSet<T>::Add is not implemented
+
+Stack trace (most recent call last):
+#21   Object "[0xffffffffffffffff]", at 0xffffffffffffffff, in 
+#20   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x555cadb5e8e4, in 
+#19   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7fd255023b48, in __libc_start_main
+#18   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7fd255023a8f, in 
+#17   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x555cadc817a5, in 
+#16   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x555cadc818dc, in 
+#15   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x555cadc10e09, in 
+#14   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x555cadc456ba, in 
+#13   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x555cadc14703, in 
+#12   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x555cadbee4d4, in 
+#11   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x555cadbed1b7, in 
+#10   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x555cadbeba2d, in 
+#9    Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x555cadc42827, in 
+#8    Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x555cadb61a0a, in 
+#7    Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x555cadb93160, in 
+#6    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7fd2554b7167, in __cxa_throw
+#5    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7fd2554b6f06, in std::terminate()
+#4    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7fd2554b6e9b, in 
+#3    Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x555cadb7f9cf, in 
+#2    Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x555cadb7f822, in 
+#1    Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x555cadb7ace4, in 
+#0    Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x555cadb80638, in 
+<end of output>
+Test time =   0.13 sec
+----------------------------------------------------------
+Test Failed.
+"ORSetTest.AddWinsTest" end time: Oct 01 20:02 EEST
+"ORSetTest.AddWinsTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+65/172 Testing: ORSetTest.DoubleMergeTest
+65/172 Test: ORSetTest.DoubleMergeTest
+Command: "/home/omar/Desktop/bustub/build/test/orset_test" "--gtest_filter=ORSetTest.DoubleMergeTest" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/orset_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"ORSetTest.DoubleMergeTest" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = ORSetTest.DoubleMergeTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ORSetTest
+[ RUN      ] ORSetTest.DoubleMergeTest
+
+Exception Type :: Not implemented, Message :: ORSet<T>::Add is not implemented
+
+Stack trace (most recent call last):
+#21   Object "[0xffffffffffffffff]", at 0xffffffffffffffff, in 
+#20   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x560cae3dd8e4, in 
+#19   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7f74c8a23b48, in __libc_start_main
+#18   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7f74c8a23a8f, in 
+#17   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x560cae5007a5, in 
+#16   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x560cae5008dc, in 
+#15   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x560cae48fe09, in 
+#14   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x560cae4c46ba, in 
+#13   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x560cae493703, in 
+#12   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x560cae46d4d4, in 
+#11   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x560cae46c1b7, in 
+#10   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x560cae46aa2d, in 
+#9    Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x560cae4c1827, in 
+#8    Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x560cae3e1990, in 
+#7    Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x560cae412160, in 
+#6    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7f74c8eb7167, in __cxa_throw
+#5    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7f74c8eb6f06, in std::terminate()
+#4    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7f74c8eb6e9b, in 
+#3    Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x560cae3fe9cf, in 
+#2    Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x560cae3fe822, in 
+#1    Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x560cae3f9ce4, in 
+#0    Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x560cae3ff638, in 
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Failed.
+"ORSetTest.DoubleMergeTest" end time: Oct 01 20:02 EEST
+"ORSetTest.DoubleMergeTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+66/172 Testing: ORSetDriverTest.AddRemoveTest
+66/172 Test: ORSetDriverTest.AddRemoveTest
+Command: "/home/omar/Desktop/bustub/build/test/orset_test" "--gtest_filter=ORSetDriverTest.AddRemoveTest" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/orset_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"ORSetDriverTest.AddRemoveTest" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = ORSetDriverTest.AddRemoveTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ORSetDriverTest
+[ RUN      ] ORSetDriverTest.AddRemoveTest
+
+Exception Type :: Not implemented, Message :: ORSet<T>::Add is not implemented
+
+Stack trace (most recent call last):
+#22   Object "[0xffffffffffffffff]", at 0xffffffffffffffff, in 
+#21   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x5621ed2ca8e4, in 
+#20   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7fec63423b48, in __libc_start_main
+#19   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7fec63423a8f, in 
+#18   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x5621ed3ed7a5, in 
+#17   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x5621ed3ed8dc, in 
+#16   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x5621ed37ce09, in 
+#15   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x5621ed3b16ba, in 
+#14   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x5621ed380703, in 
+#13   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x5621ed35a4d4, in 
+#12   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x5621ed3591b7, in 
+#11   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x5621ed357a2d, in 
+#10   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x5621ed3ae827, in 
+#9    Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x5621ed2d148a, in 
+#8    Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x5621ed2e2681, in 
+#7    Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x5621ed2fe24a, in 
+#6    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7fec638b7167, in __cxa_throw
+#5    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7fec638b6f06, in std::terminate()
+#4    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7fec638b6e9b, in 
+#3    Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x5621ed2eb9cf, in 
+#2    Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x5621ed2eb822, in 
+#1    Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x5621ed2e6ce4, in 
+#0    Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x5621ed2ec638, in 
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Failed.
+"ORSetDriverTest.AddRemoveTest" end time: Oct 01 20:02 EEST
+"ORSetDriverTest.AddRemoveTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+67/172 Testing: ORSetDriverTest.MergeTest
+67/172 Test: ORSetDriverTest.MergeTest
+Command: "/home/omar/Desktop/bustub/build/test/orset_test" "--gtest_filter=ORSetDriverTest.MergeTest" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/orset_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"ORSetDriverTest.MergeTest" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = ORSetDriverTest.MergeTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ORSetDriverTest
+[ RUN      ] ORSetDriverTest.MergeTest
+
+Exception Type :: Not implemented, Message :: ORSet<T>::Add is not implemented
+
+Stack trace (most recent call last):
+#22   Object "[0xffffffffffffffff]", at 0xffffffffffffffff, in 
+#21   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x55a45e3dd8e4, in 
+#20   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7fc731223b48, in __libc_start_main
+#19   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7fc731223a8f, in 
+#18   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x55a45e5007a5, in 
+#17   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x55a45e5008dc, in 
+#16   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x55a45e48fe09, in 
+#15   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x55a45e4c46ba, in 
+#14   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x55a45e493703, in 
+#13   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x55a45e46d4d4, in 
+#12   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x55a45e46c1b7, in 
+#11   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x55a45e46aa2d, in 
+#10   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x55a45e4c1827, in 
+#9    Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x55a45e3e7b33, in 
+#8    Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x55a45e3f5681, in 
+#7    Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x55a45e41124a, in 
+#6    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7fc7316b7167, in __cxa_throw
+#5    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7fc7316b6f06, in std::terminate()
+#4    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7fc7316b6e9b, in 
+#3    Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x55a45e3fe9cf, in 
+#2    Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x55a45e3fe822, in 
+#1    Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x55a45e3f9ce4, in 
+#0    Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x55a45e3ff638, in 
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Failed.
+"ORSetDriverTest.MergeTest" end time: Oct 01 20:02 EEST
+"ORSetDriverTest.MergeTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+68/172 Testing: ORSetDriverTest.AddBackAgainTest
+68/172 Test: ORSetDriverTest.AddBackAgainTest
+Command: "/home/omar/Desktop/bustub/build/test/orset_test" "--gtest_filter=ORSetDriverTest.AddBackAgainTest" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/orset_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"ORSetDriverTest.AddBackAgainTest" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = ORSetDriverTest.AddBackAgainTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ORSetDriverTest
+[ RUN      ] ORSetDriverTest.AddBackAgainTest
+
+Exception Type :: Not implemented, Message :: ORSet<T>::Add is not implemented
+
+Stack trace (most recent call last):
+#22   Object "[0xffffffffffffffff]", at 0xffffffffffffffff, in 
+#21   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x55c37bb088e4, in 
+#20   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7f2255023b48, in __libc_start_main
+#19   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7f2255023a8f, in 
+#18   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x55c37bc2b7a5, in 
+#17   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x55c37bc2b8dc, in 
+#16   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x55c37bbbae09, in 
+#15   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x55c37bbef6ba, in 
+#14   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x55c37bbbe703, in 
+#13   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x55c37bb984d4, in 
+#12   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x55c37bb971b7, in 
+#11   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x55c37bb95a2d, in 
+#10   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x55c37bbec827, in 
+#9    Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x55c37bb14752, in 
+#8    Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x55c37bb20681, in 
+#7    Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x55c37bb3c24a, in 
+#6    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7f22554b7167, in __cxa_throw
+#5    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7f22554b6f06, in std::terminate()
+#4    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7f22554b6e9b, in 
+#3    Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x55c37bb299cf, in 
+#2    Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x55c37bb29822, in 
+#1    Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x55c37bb24ce4, in 
+#0    Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x55c37bb2a638, in 
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Failed.
+"ORSetDriverTest.AddBackAgainTest" end time: Oct 01 20:02 EEST
+"ORSetDriverTest.AddBackAgainTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+69/172 Testing: ORSetDriverTest.AddWinsALotTest
+69/172 Test: ORSetDriverTest.AddWinsALotTest
+Command: "/home/omar/Desktop/bustub/build/test/orset_test" "--gtest_filter=ORSetDriverTest.AddWinsALotTest" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/orset_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"ORSetDriverTest.AddWinsALotTest" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = ORSetDriverTest.AddWinsALotTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ORSetDriverTest
+[ RUN      ] ORSetDriverTest.AddWinsALotTest
+
+Exception Type :: Not implemented, Message :: ORSet<T>::Add is not implemented
+
+Stack trace (most recent call last):
+#22   Object "[0xffffffffffffffff]", at 0xffffffffffffffff, in 
+#21   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x557ddca098e4, in 
+#20   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7f40a0023b48, in __libc_start_main
+#19   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7f40a0023a8f, in 
+#18   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x557ddcb2c7a5, in 
+#17   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x557ddcb2c8dc, in 
+#16   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x557ddcabbe09, in 
+#15   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x557ddcaf06ba, in 
+#14   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x557ddcabf703, in 
+#13   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x557ddca994d4, in 
+#12   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x557ddca981b7, in 
+#11   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x557ddca96a2d, in 
+#10   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x557ddcaed827, in 
+#9    Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x557ddca1911d, in 
+#8    Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x557ddca21681, in 
+#7    Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x557ddca3d24a, in 
+#6    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7f40a04b7167, in __cxa_throw
+#5    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7f40a04b6f06, in std::terminate()
+#4    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7f40a04b6e9b, in 
+#3    Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x557ddca2a9cf, in 
+#2    Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x557ddca2a822, in 
+#1    Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x557ddca25ce4, in 
+#0    Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x557ddca2b638, in 
+<end of output>
+Test time =   0.18 sec
+----------------------------------------------------------
+Test Failed.
+"ORSetDriverTest.AddWinsALotTest" end time: Oct 01 20:02 EEST
+"ORSetDriverTest.AddWinsALotTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+70/172 Testing: ORSetDriverTest.NetworkLostTest
+70/172 Test: ORSetDriverTest.NetworkLostTest
+Command: "/home/omar/Desktop/bustub/build/test/orset_test" "--gtest_filter=ORSetDriverTest.NetworkLostTest" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/orset_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"ORSetDriverTest.NetworkLostTest" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = ORSetDriverTest.NetworkLostTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ORSetDriverTest
+[ RUN      ] ORSetDriverTest.NetworkLostTest
+
+Exception Type :: Not implemented, Message :: ORSet<T>::Add is not implemented
+
+Stack trace (most recent call last):
+#22   Object "[0xffffffffffffffff]", at 0xffffffffffffffff, in 
+#21   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x56489e3ae8e4, in 
+#20   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7f6055823b48, in __libc_start_main
+#19   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7f6055823a8f, in 
+#18   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x56489e4d17a5, in 
+#17   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x56489e4d18dc, in 
+#16   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x56489e460e09, in 
+#15   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x56489e4956ba, in 
+#14   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x56489e464703, in 
+#13   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x56489e43e4d4, in 
+#12   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x56489e43d1b7, in 
+#11   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x56489e43ba2d, in 
+#10   Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x56489e492827, in 
+#9    Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x56489e3c048d, in 
+#8    Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x56489e3c6681, in 
+#7    Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x56489e3e224a, in 
+#6    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7f6055cb7167, in __cxa_throw
+#5    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7f6055cb6f06, in std::terminate()
+#4    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7f6055cb6e9b, in 
+#3    Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x56489e3cf9cf, in 
+#2    Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x56489e3cf822, in 
+#1    Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x56489e3cace4, in 
+#0    Object "/home/omar/Desktop/bustub/build/test/orset_test", at 0x56489e3d0638, in 
+<end of output>
+Test time =   0.18 sec
+----------------------------------------------------------
+Test Failed.
+"ORSetDriverTest.NetworkLostTest" end time: Oct 01 20:02 EEST
+"ORSetDriverTest.NetworkLostTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+71/172 Testing: TrieDebugger.TestCase
+71/172 Test: TrieDebugger.TestCase
+Command: "/home/omar/Desktop/bustub/build/test/trie_debug_test" "--gtest_filter=TrieDebugger.TestCase" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/trie_debug_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"TrieDebugger.TestCase" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = TrieDebugger.TestCase
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TrieDebugger
+[ RUN      ] TrieDebugger.TestCase
+
+Exception Type :: Not implemented, Message :: Trie::Put is not implemented.
+
+Stack trace (most recent call last):
+#21   Object "[0xffffffffffffffff]", at 0xffffffffffffffff, in 
+#20   Object "/home/omar/Desktop/bustub/build/test/trie_debug_test", at 0x55fdb12a1924, in 
+#19   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7fc610423b48, in __libc_start_main
+#18   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7fc610423a8f, in 
+#17   Object "/home/omar/Desktop/bustub/build/test/trie_debug_test", at 0x55fdb138628b, in 
+#16   Object "/home/omar/Desktop/bustub/build/test/trie_debug_test", at 0x55fdb13863c2, in 
+#15   Object "/home/omar/Desktop/bustub/build/test/trie_debug_test", at 0x55fdb13148b1, in 
+#14   Object "/home/omar/Desktop/bustub/build/test/trie_debug_test", at 0x55fdb1349230, in 
+#13   Object "/home/omar/Desktop/bustub/build/test/trie_debug_test", at 0x55fdb13181ab, in 
+#12   Object "/home/omar/Desktop/bustub/build/test/trie_debug_test", at 0x55fdb12f1f7c, in 
+#11   Object "/home/omar/Desktop/bustub/build/test/trie_debug_test", at 0x55fdb12f0c5f, in 
+#10   Object "/home/omar/Desktop/bustub/build/test/trie_debug_test", at 0x55fdb12ef4d5, in 
+#9    Object "/home/omar/Desktop/bustub/build/test/trie_debug_test", at 0x55fdb1346251, in 
+#8    Object "/home/omar/Desktop/bustub/build/test/trie_debug_test", at 0x55fdb12a2d39, in 
+#7    Object "/home/omar/Desktop/bustub/build/test/trie_debug_test", at 0x55fdb12bf822, in 
+#6    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7fc6108b7167, in __cxa_throw
+#5    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7fc6108b6f06, in std::terminate()
+#4    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7fc6108b6e9b, in 
+#3    Object "/home/omar/Desktop/bustub/build/test/trie_debug_test", at 0x55fdb12afdd9, in 
+#2    Object "/home/omar/Desktop/bustub/build/test/trie_debug_test", at 0x55fdb12afc2c, in 
+#1    Object "/home/omar/Desktop/bustub/build/test/trie_debug_test", at 0x55fdb12ab0ee, in 
+#0    Object "/home/omar/Desktop/bustub/build/test/trie_debug_test", at 0x55fdb12b0a42, in 
+<end of output>
+Test time =   0.21 sec
+----------------------------------------------------------
+Test Failed.
+"TrieDebugger.TestCase" end time: Oct 01 20:02 EEST
+"TrieDebugger.TestCase" time elapsed: 00:00:00
+----------------------------------------------------------
+
+72/172 Testing: TrieTest.NonCopyableTest
+72/172 Test: TrieTest.NonCopyableTest
+Command: "/home/omar/Desktop/bustub/build/test/trie_noncopy_test" "--gtest_filter=TrieTest.NonCopyableTest" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/trie_noncopy_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"TrieTest.NonCopyableTest" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = TrieTest.NonCopyableTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TrieTest
+[ RUN      ] TrieTest.NonCopyableTest
+
+Exception Type :: Not implemented, Message :: Trie::Put is not implemented.
+
+Stack trace (most recent call last):
+#21   Object "[0xffffffffffffffff]", at 0xffffffffffffffff, in 
+#20   Object "/home/omar/Desktop/bustub/build/test/trie_noncopy_test", at 0x558777302554, in 
+#19   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7f6f26c23b48, in __libc_start_main
+#18   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7f6f26c23a8f, in 
+#17   Object "/home/omar/Desktop/bustub/build/test/trie_noncopy_test", at 0x5587773e71f9, in 
+#16   Object "/home/omar/Desktop/bustub/build/test/trie_noncopy_test", at 0x5587773e7330, in 
+#15   Object "/home/omar/Desktop/bustub/build/test/trie_noncopy_test", at 0x5587773754c7, in 
+#14   Object "/home/omar/Desktop/bustub/build/test/trie_noncopy_test", at 0x5587773a9f80, in 
+#13   Object "/home/omar/Desktop/bustub/build/test/trie_noncopy_test", at 0x558777378dc1, in 
+#12   Object "/home/omar/Desktop/bustub/build/test/trie_noncopy_test", at 0x558777352b92, in 
+#11   Object "/home/omar/Desktop/bustub/build/test/trie_noncopy_test", at 0x558777351875, in 
+#10   Object "/home/omar/Desktop/bustub/build/test/trie_noncopy_test", at 0x5587773500eb, in 
+#9    Object "/home/omar/Desktop/bustub/build/test/trie_noncopy_test", at 0x5587773a6fa1, in 
+#8    Object "/home/omar/Desktop/bustub/build/test/trie_noncopy_test", at 0x558777302a71, in 
+#7    Object "/home/omar/Desktop/bustub/build/test/trie_noncopy_test", at 0x558777320d6a, in 
+#6    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7f6f270b7167, in __cxa_throw
+#5    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7f6f270b6f06, in std::terminate()
+#4    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7f6f270b6e9b, in 
+#3    Object "/home/omar/Desktop/bustub/build/test/trie_noncopy_test", at 0x55877730f9bf, in 
+#2    Object "/home/omar/Desktop/bustub/build/test/trie_noncopy_test", at 0x55877730f812, in 
+#1    Object "/home/omar/Desktop/bustub/build/test/trie_noncopy_test", at 0x55877730acd4, in 
+#0    Object "/home/omar/Desktop/bustub/build/test/trie_noncopy_test", at 0x558777310628, in 
+<end of output>
+Test time =   0.20 sec
+----------------------------------------------------------
+Test Failed.
+"TrieTest.NonCopyableTest" end time: Oct 01 20:02 EEST
+"TrieTest.NonCopyableTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+73/172 Testing: TrieStoreTest.NonCopyableTest
+73/172 Test: TrieStoreTest.NonCopyableTest
+Command: "/home/omar/Desktop/bustub/build/test/trie_store_noncopy_test" "--gtest_filter=TrieStoreTest.NonCopyableTest" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/trie_store_noncopy_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"TrieStoreTest.NonCopyableTest" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = TrieStoreTest.NonCopyableTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TrieStoreTest
+[ RUN      ] TrieStoreTest.NonCopyableTest
+
+Exception Type :: Not implemented, Message :: TrieStore::Put is not implemented.
+
+Stack trace (most recent call last):
+#21   Object "[0xffffffffffffffff]", at 0xffffffffffffffff, in 
+#20   Object "/home/omar/Desktop/bustub/build/test/trie_store_noncopy_test", at 0x564f45246794, in 
+#19   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7ff980623b48, in __libc_start_main
+#18   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7ff980623a8f, in 
+#17   Object "/home/omar/Desktop/bustub/build/test/trie_store_noncopy_test", at 0x564f45335035, in 
+#16   Object "/home/omar/Desktop/bustub/build/test/trie_store_noncopy_test", at 0x564f4533516c, in 
+#15   Object "/home/omar/Desktop/bustub/build/test/trie_store_noncopy_test", at 0x564f452c43ad, in 
+#14   Object "/home/omar/Desktop/bustub/build/test/trie_store_noncopy_test", at 0x564f452f80ca, in 
+#13   Object "/home/omar/Desktop/bustub/build/test/trie_store_noncopy_test", at 0x564f452c7ca7, in 
+#12   Object "/home/omar/Desktop/bustub/build/test/trie_store_noncopy_test", at 0x564f452a1a78, in 
+#11   Object "/home/omar/Desktop/bustub/build/test/trie_store_noncopy_test", at 0x564f452a075b, in 
+#10   Object "/home/omar/Desktop/bustub/build/test/trie_store_noncopy_test", at 0x564f4529efd1, in 
+#9    Object "/home/omar/Desktop/bustub/build/test/trie_store_noncopy_test", at 0x564f452f50eb, in 
+#8    Object "/home/omar/Desktop/bustub/build/test/trie_store_noncopy_test", at 0x564f45246c53, in 
+#7    Object "/home/omar/Desktop/bustub/build/test/trie_store_noncopy_test", at 0x564f4526fe64, in 
+#6    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7ff980ab7167, in __cxa_throw
+#5    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7ff980ab6f06, in std::terminate()
+#4    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7ff980ab6e9b, in 
+#3    Object "/home/omar/Desktop/bustub/build/test/trie_store_noncopy_test", at 0x564f4525ec99, in 
+#2    Object "/home/omar/Desktop/bustub/build/test/trie_store_noncopy_test", at 0x564f4525eaec, in 
+#1    Object "/home/omar/Desktop/bustub/build/test/trie_store_noncopy_test", at 0x564f45259fae, in 
+#0    Object "/home/omar/Desktop/bustub/build/test/trie_store_noncopy_test", at 0x564f4525f902, in 
+<end of output>
+Test time =   0.15 sec
+----------------------------------------------------------
+Test Failed.
+"TrieStoreTest.NonCopyableTest" end time: Oct 01 20:02 EEST
+"TrieStoreTest.NonCopyableTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+74/172 Testing: TrieStoreTest.ReadWriteTest
+74/172 Test: TrieStoreTest.ReadWriteTest
+Command: "/home/omar/Desktop/bustub/build/test/trie_store_noncopy_test" "--gtest_filter=TrieStoreTest.ReadWriteTest" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/trie_store_noncopy_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"TrieStoreTest.ReadWriteTest" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = TrieStoreTest.ReadWriteTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TrieStoreTest
+[ RUN      ] TrieStoreTest.ReadWriteTest
+
+Exception Type :: Not implemented, Message :: TrieStore::Put is not implemented.
+
+Stack trace (most recent call last):
+#21   Object "[0xffffffffffffffff]", at 0xffffffffffffffff, in 
+#20   Object "/home/omar/Desktop/bustub/build/test/trie_store_noncopy_test", at 0x55e57d313794, in 
+#19   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7f79b9623b48, in __libc_start_main
+#18   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7f79b9623a8f, in 
+#17   Object "/home/omar/Desktop/bustub/build/test/trie_store_noncopy_test", at 0x55e57d402035, in 
+#16   Object "/home/omar/Desktop/bustub/build/test/trie_store_noncopy_test", at 0x55e57d40216c, in 
+#15   Object "/home/omar/Desktop/bustub/build/test/trie_store_noncopy_test", at 0x55e57d3913ad, in 
+#14   Object "/home/omar/Desktop/bustub/build/test/trie_store_noncopy_test", at 0x55e57d3c50ca, in 
+#13   Object "/home/omar/Desktop/bustub/build/test/trie_store_noncopy_test", at 0x55e57d394ca7, in 
+#12   Object "/home/omar/Desktop/bustub/build/test/trie_store_noncopy_test", at 0x55e57d36ea78, in 
+#11   Object "/home/omar/Desktop/bustub/build/test/trie_store_noncopy_test", at 0x55e57d36d75b, in 
+#10   Object "/home/omar/Desktop/bustub/build/test/trie_store_noncopy_test", at 0x55e57d36bfd1, in 
+#9    Object "/home/omar/Desktop/bustub/build/test/trie_store_noncopy_test", at 0x55e57d3c20eb, in 
+#8    Object "/home/omar/Desktop/bustub/build/test/trie_store_noncopy_test", at 0x55e57d31612c, in 
+#7    Object "/home/omar/Desktop/bustub/build/test/trie_store_noncopy_test", at 0x55e57d33c761, in 
+#6    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7f79b9ab7167, in __cxa_throw
+#5    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7f79b9ab6f06, in std::terminate()
+#4    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7f79b9ab6e9b, in 
+#3    Object "/home/omar/Desktop/bustub/build/test/trie_store_noncopy_test", at 0x55e57d32bc99, in 
+#2    Object "/home/omar/Desktop/bustub/build/test/trie_store_noncopy_test", at 0x55e57d32baec, in 
+#1    Object "/home/omar/Desktop/bustub/build/test/trie_store_noncopy_test", at 0x55e57d326fae, in 
+#0    Object "/home/omar/Desktop/bustub/build/test/trie_store_noncopy_test", at 0x55e57d32c902, in 
+<end of output>
+Test time =   0.13 sec
+----------------------------------------------------------
+Test Failed.
+"TrieStoreTest.ReadWriteTest" end time: Oct 01 20:02 EEST
+"TrieStoreTest.ReadWriteTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+75/172 Testing: TrieStoreTest.BasicTest
+75/172 Test: TrieStoreTest.BasicTest
+Command: "/home/omar/Desktop/bustub/build/test/trie_store_test" "--gtest_filter=TrieStoreTest.BasicTest" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/trie_store_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"TrieStoreTest.BasicTest" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = TrieStoreTest.BasicTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TrieStoreTest
+[ RUN      ] TrieStoreTest.BasicTest
+
+Exception Type :: Not implemented, Message :: TrieStore::Get is not implemented.
+
+Stack trace (most recent call last):
+#21   Object "[0xffffffffffffffff]", at 0xffffffffffffffff, in 
+#20   Object "/home/omar/Desktop/bustub/build/test/trie_store_test", at 0x56191520b944, in 
+#19   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7f31d8423b48, in __libc_start_main
+#18   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7f31d8423a8f, in 
+#17   Object "/home/omar/Desktop/bustub/build/test/trie_store_test", at 0x5619152fdd2f, in 
+#16   Object "/home/omar/Desktop/bustub/build/test/trie_store_test", at 0x5619152fde66, in 
+#15   Object "/home/omar/Desktop/bustub/build/test/trie_store_test", at 0x56191528c4bd, in 
+#14   Object "/home/omar/Desktop/bustub/build/test/trie_store_test", at 0x5619152c0ab6, in 
+#13   Object "/home/omar/Desktop/bustub/build/test/trie_store_test", at 0x56191528fdb7, in 
+#12   Object "/home/omar/Desktop/bustub/build/test/trie_store_test", at 0x561915269b88, in 
+#11   Object "/home/omar/Desktop/bustub/build/test/trie_store_test", at 0x56191526886b, in 
+#10   Object "/home/omar/Desktop/bustub/build/test/trie_store_test", at 0x5619152670e1, in 
+#9    Object "/home/omar/Desktop/bustub/build/test/trie_store_test", at 0x5619152bdad7, in 
+#8    Object "/home/omar/Desktop/bustub/build/test/trie_store_test", at 0x56191520bcd4, in 
+#7    Object "/home/omar/Desktop/bustub/build/test/trie_store_test", at 0x56191523765f, in 
+#6    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7f31d88b7167, in __cxa_throw
+#5    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7f31d88b6f06, in std::terminate()
+#4    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7f31d88b6e9b, in 
+#3    Object "/home/omar/Desktop/bustub/build/test/trie_store_test", at 0x561915226f0d, in 
+#2    Object "/home/omar/Desktop/bustub/build/test/trie_store_test", at 0x561915226d60, in 
+#1    Object "/home/omar/Desktop/bustub/build/test/trie_store_test", at 0x561915222222, in 
+#0    Object "/home/omar/Desktop/bustub/build/test/trie_store_test", at 0x561915227a7a, in 
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Failed.
+"TrieStoreTest.BasicTest" end time: Oct 01 20:02 EEST
+"TrieStoreTest.BasicTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+76/172 Testing: TrieStoreTest.GuardTest
+76/172 Test: TrieStoreTest.GuardTest
+Command: "/home/omar/Desktop/bustub/build/test/trie_store_test" "--gtest_filter=TrieStoreTest.GuardTest" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/trie_store_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"TrieStoreTest.GuardTest" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = TrieStoreTest.GuardTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TrieStoreTest
+[ RUN      ] TrieStoreTest.GuardTest
+
+Exception Type :: Not implemented, Message :: TrieStore::Get is not implemented.
+
+Stack trace (most recent call last):
+#21   Object "[0xffffffffffffffff]", at 0xffffffffffffffff, in 
+#20   Object "/home/omar/Desktop/bustub/build/test/trie_store_test", at 0x56057b0a4944, in 
+#19   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7fb45f423b48, in __libc_start_main
+#18   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7fb45f423a8f, in 
+#17   Object "/home/omar/Desktop/bustub/build/test/trie_store_test", at 0x56057b196d2f, in 
+#16   Object "/home/omar/Desktop/bustub/build/test/trie_store_test", at 0x56057b196e66, in 
+#15   Object "/home/omar/Desktop/bustub/build/test/trie_store_test", at 0x56057b1254bd, in 
+#14   Object "/home/omar/Desktop/bustub/build/test/trie_store_test", at 0x56057b159ab6, in 
+#13   Object "/home/omar/Desktop/bustub/build/test/trie_store_test", at 0x56057b128db7, in 
+#12   Object "/home/omar/Desktop/bustub/build/test/trie_store_test", at 0x56057b102b88, in 
+#11   Object "/home/omar/Desktop/bustub/build/test/trie_store_test", at 0x56057b10186b, in 
+#10   Object "/home/omar/Desktop/bustub/build/test/trie_store_test", at 0x56057b1000e1, in 
+#9    Object "/home/omar/Desktop/bustub/build/test/trie_store_test", at 0x56057b156ad7, in 
+#8    Object "/home/omar/Desktop/bustub/build/test/trie_store_test", at 0x56057b0a5d46, in 
+#7    Object "/home/omar/Desktop/bustub/build/test/trie_store_test", at 0x56057b0d065f, in 
+#6    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7fb45f8b7167, in __cxa_throw
+#5    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7fb45f8b6f06, in std::terminate()
+#4    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7fb45f8b6e9b, in 
+#3    Object "/home/omar/Desktop/bustub/build/test/trie_store_test", at 0x56057b0bff0d, in 
+#2    Object "/home/omar/Desktop/bustub/build/test/trie_store_test", at 0x56057b0bfd60, in 
+#1    Object "/home/omar/Desktop/bustub/build/test/trie_store_test", at 0x56057b0bb222, in 
+#0    Object "/home/omar/Desktop/bustub/build/test/trie_store_test", at 0x56057b0c0a7a, in 
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Failed.
+"TrieStoreTest.GuardTest" end time: Oct 01 20:02 EEST
+"TrieStoreTest.GuardTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+77/172 Testing: TrieStoreTest.MixedTest
+77/172 Test: TrieStoreTest.MixedTest
+Command: "/home/omar/Desktop/bustub/build/test/trie_store_test" "--gtest_filter=TrieStoreTest.MixedTest" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/trie_store_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"TrieStoreTest.MixedTest" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = TrieStoreTest.MixedTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TrieStoreTest
+[ RUN      ] TrieStoreTest.MixedTest
+
+Exception Type :: Not implemented, Message :: TrieStore::Put is not implemented.
+
+Stack trace (most recent call last):
+#21   Object "[0xffffffffffffffff]", at 0xffffffffffffffff, in 
+#20   Object "/home/omar/Desktop/bustub/build/test/trie_store_test", at 0x5592023c5944, in 
+#19   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7fdf07823b48, in __libc_start_main
+#18   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7fdf07823a8f, in 
+#17   Object "/home/omar/Desktop/bustub/build/test/trie_store_test", at 0x5592024b7d2f, in 
+#16   Object "/home/omar/Desktop/bustub/build/test/trie_store_test", at 0x5592024b7e66, in 
+#15   Object "/home/omar/Desktop/bustub/build/test/trie_store_test", at 0x5592024464bd, in 
+#14   Object "/home/omar/Desktop/bustub/build/test/trie_store_test", at 0x55920247aab6, in 
+#13   Object "/home/omar/Desktop/bustub/build/test/trie_store_test", at 0x559202449db7, in 
+#12   Object "/home/omar/Desktop/bustub/build/test/trie_store_test", at 0x559202423b88, in 
+#11   Object "/home/omar/Desktop/bustub/build/test/trie_store_test", at 0x55920242286b, in 
+#10   Object "/home/omar/Desktop/bustub/build/test/trie_store_test", at 0x5592024210e1, in 
+#9    Object "/home/omar/Desktop/bustub/build/test/trie_store_test", at 0x559202477ad7, in 
+#8    Object "/home/omar/Desktop/bustub/build/test/trie_store_test", at 0x5592023c87cc, in 
+#7    Object "/home/omar/Desktop/bustub/build/test/trie_store_test", at 0x5592023f1ba4, in 
+#6    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7fdf07cb7167, in __cxa_throw
+#5    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7fdf07cb6f06, in std::terminate()
+#4    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7fdf07cb6e9b, in 
+#3    Object "/home/omar/Desktop/bustub/build/test/trie_store_test", at 0x5592023e0f0d, in 
+#2    Object "/home/omar/Desktop/bustub/build/test/trie_store_test", at 0x5592023e0d60, in 
+#1    Object "/home/omar/Desktop/bustub/build/test/trie_store_test", at 0x5592023dc222, in 
+#0    Object "/home/omar/Desktop/bustub/build/test/trie_store_test", at 0x5592023e1a7a, in 
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Failed.
+"TrieStoreTest.MixedTest" end time: Oct 01 20:02 EEST
+"TrieStoreTest.MixedTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+78/172 Testing: TrieStoreTest.MixedConcurrentTest
+78/172 Test: TrieStoreTest.MixedConcurrentTest
+Command: "/home/omar/Desktop/bustub/build/test/trie_store_test" "--gtest_filter=TrieStoreTest.MixedConcurrentTest" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/trie_store_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"TrieStoreTest.MixedConcurrentTest" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = TrieStoreTest.MixedConcurrentTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TrieStoreTest
+[ RUN      ] TrieStoreTest.MixedConcurrentTest
+
+Exception Type :: Not implemented, Message :: TrieStore::Put is not implemented.
+
+
+Exception Type :: Not implemented, Message :: TrieStore::Put is not implemented.
+
+
+Exception Type :: Not implemented, Message :: TrieStore::Put is not implemented.
+
+
+Exception Type :: Not implemented, Message :: TrieStore::Get is not implemented.
+
+
+Exception Type :: Not implemented, Message :: TrieStore::Get is not implemented.
+
+
+Exception Type :: Not implemented, Message :: TrieStore::Get is not implemented.
+
+
+Exception Type :: Not implemented, Message :: TrieStore::Put is not implemented.
+
+
+Exception Type :: Not implemented, Message :: TrieStore::Get is not implemented.
+
+Stack trace (most recent call last) in thread 260906:
+Stack trace (most recent call last) in thread Stack trace (most recent call last) in thread 260908260907Stack trace (most recent call last) in thread 260905:
+:
+:
+Stack trace (most recent call last) in thread 260904:
+Stack trace (most recent call last) in thread 260911:
+Stack trace (most recent call last) in thread 260910:
+Stack trace (most recent call last) in thread 260909:
+#17   Object "[0xffffffffffffffff]", at 0xffffffffffffffff, in 
+#16   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7fa3ad91e11f, in 
+#15   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7fa3ad88f6b9, in 
+#14   Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7fa3adce6362, in 
+#13   Object "/home/omar/Desktop/bustub/build/test/trie_store_test", at 0x5609c317fa0d, in 
+#12   Object "/home/omar/Desktop/bustub/build/test/trie_store_test", at 0x5609c317fa45, in 
+#11   Object "/home/omar/Desktop/bustub/build/test/trie_store_test", at 0x5609c317fa9d, in 
+#10   Object "/home/omar/Desktop/bustub/build/test/trie_store_test", at 0x5609c317fb43, in 
+#9    Object "/home/omar/Desktop/bustub/build/test/trie_store_test", at 0x5609c317fbbd, in 
+#8    Object "/home/omar/Desktop/bustub/build/test/trie_store_test", at 0x5609c317b840, in 
+#7    Object "/home/omar/Desktop/bustub/build/test/trie_store_test", at 0x5609c31a1ba4, in 
+#6    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7fa3adcb7167, in __cxa_throw
+#5    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7fa3adcb6f06, in std::terminate()
+#4    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7fa3adcb6e9b, in 
+#3    Object "/home/omar/Desktop/bustub/build/test/trie_store_test", at 0x5609c3190f0d, in 
+#2    Object "/home/omar/Desktop/bustub/build/test/trie_store_test", at 0x5609c3190d60, in 
+#1    Object "/home/omar/Desktop/bustub/build/test/trie_store_test", at 0x5609c318c222, in 
+#0    Object "/home/omar/Desktop/bustub/build/test/trie_store_test", at 0x5609c3191a7a, in 
+<end of output>
+Test time =   0.13 sec
+----------------------------------------------------------
+Test Failed.
+"TrieStoreTest.MixedConcurrentTest" end time: Oct 01 20:02 EEST
+"TrieStoreTest.MixedConcurrentTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+79/172 Testing: TrieTest.ConstructorTest
+79/172 Test: TrieTest.ConstructorTest
+Command: "/home/omar/Desktop/bustub/build/test/trie_test" "--gtest_filter=TrieTest.ConstructorTest" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/trie_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"TrieTest.ConstructorTest" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = TrieTest.ConstructorTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TrieTest
+[ RUN      ] TrieTest.ConstructorTest
+[       OK ] TrieTest.ConstructorTest (0 ms)
+[----------] 1 test from TrieTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"TrieTest.ConstructorTest" end time: Oct 01 20:02 EEST
+"TrieTest.ConstructorTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+80/172 Testing: TrieTest.BasicPutTest
+80/172 Test: TrieTest.BasicPutTest
+Command: "/home/omar/Desktop/bustub/build/test/trie_test" "--gtest_filter=TrieTest.BasicPutTest" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/trie_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"TrieTest.BasicPutTest" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = TrieTest.BasicPutTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TrieTest
+[ RUN      ] TrieTest.BasicPutTest
+
+Exception Type :: Not implemented, Message :: Trie::Put is not implemented.
+
+Stack trace (most recent call last):
+#21   Object "[0xffffffffffffffff]", at 0xffffffffffffffff, in 
+#20   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55c6b5a04904, in 
+#19   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7f4baf223b48, in __libc_start_main
+#18   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7f4baf223a8f, in 
+#17   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55c6b5b0c847, in 
+#16   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55c6b5b0c97e, in 
+#15   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55c6b5a9b1a7, in 
+#14   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55c6b5acf704, in 
+#13   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55c6b5a9eaa1, in 
+#12   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55c6b5a78872, in 
+#11   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55c6b5a77555, in 
+#10   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55c6b5a75dcb, in 
+#9    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55c6b5acc725, in 
+#8    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55c6b5a04d38, in 
+#7    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55c6b5a45fb8, in 
+#6    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7f4baf6b7167, in __cxa_throw
+#5    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7f4baf6b6f06, in std::terminate()
+#4    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7f4baf6b6e9b, in 
+#3    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55c6b5a35727, in 
+#2    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55c6b5a3557a, in 
+#1    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55c6b5a30a3c, in 
+#0    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55c6b5a36308, in 
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Failed.
+"TrieTest.BasicPutTest" end time: Oct 01 20:02 EEST
+"TrieTest.BasicPutTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+81/172 Testing: TrieTest.TrieStructureCheck
+81/172 Test: TrieTest.TrieStructureCheck
+Command: "/home/omar/Desktop/bustub/build/test/trie_test" "--gtest_filter=TrieTest.TrieStructureCheck" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/trie_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"TrieTest.TrieStructureCheck" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = TrieTest.TrieStructureCheck
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TrieTest
+[ RUN      ] TrieTest.TrieStructureCheck
+
+Exception Type :: Not implemented, Message :: Trie::Put is not implemented.
+
+Stack trace (most recent call last):
+#21   Object "[0xffffffffffffffff]", at 0xffffffffffffffff, in 
+#20   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55dada2af904, in 
+#19   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7f3ff1e23b48, in __libc_start_main
+#18   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7f3ff1e23a8f, in 
+#17   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55dada3b7847, in 
+#16   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55dada3b797e, in 
+#15   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55dada3461a7, in 
+#14   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55dada37a704, in 
+#13   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55dada349aa1, in 
+#12   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55dada323872, in 
+#11   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55dada322555, in 
+#10   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55dada320dcb, in 
+#9    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55dada377725, in 
+#8    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55dada2b07da, in 
+#7    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55dada2f0fb8, in 
+#6    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7f3ff22b7167, in __cxa_throw
+#5    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7f3ff22b6f06, in std::terminate()
+#4    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7f3ff22b6e9b, in 
+#3    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55dada2e0727, in 
+#2    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55dada2e057a, in 
+#1    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55dada2dba3c, in 
+#0    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55dada2e1308, in 
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Failed.
+"TrieTest.TrieStructureCheck" end time: Oct 01 20:02 EEST
+"TrieTest.TrieStructureCheck" time elapsed: 00:00:00
+----------------------------------------------------------
+
+82/172 Testing: TrieTest.BasicPutGetTest
+82/172 Test: TrieTest.BasicPutGetTest
+Command: "/home/omar/Desktop/bustub/build/test/trie_test" "--gtest_filter=TrieTest.BasicPutGetTest" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/trie_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"TrieTest.BasicPutGetTest" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = TrieTest.BasicPutGetTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TrieTest
+[ RUN      ] TrieTest.BasicPutGetTest
+
+Exception Type :: Not implemented, Message :: Trie::Put is not implemented.
+
+Stack trace (most recent call last):
+#21   Object "[0xffffffffffffffff]", at 0xffffffffffffffff, in 
+#20   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55a398ecf904, in 
+#19   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7fd7b4823b48, in __libc_start_main
+#18   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7fd7b4823a8f, in 
+#17   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55a398fd7847, in 
+#16   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55a398fd797e, in 
+#15   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55a398f661a7, in 
+#14   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55a398f9a704, in 
+#13   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55a398f69aa1, in 
+#12   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55a398f43872, in 
+#11   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55a398f42555, in 
+#10   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55a398f40dcb, in 
+#9    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55a398f97725, in 
+#8    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55a398ed2bb6, in 
+#7    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55a398f10fb8, in 
+#6    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7fd7b4cb7167, in __cxa_throw
+#5    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7fd7b4cb6f06, in std::terminate()
+#4    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7fd7b4cb6e9b, in 
+#3    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55a398f00727, in 
+#2    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55a398f0057a, in 
+#1    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55a398efba3c, in 
+#0    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55a398f01308, in 
+<end of output>
+Test time =   0.14 sec
+----------------------------------------------------------
+Test Failed.
+"TrieTest.BasicPutGetTest" end time: Oct 01 20:02 EEST
+"TrieTest.BasicPutGetTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+83/172 Testing: TrieTest.PutGetOnePath
+83/172 Test: TrieTest.PutGetOnePath
+Command: "/home/omar/Desktop/bustub/build/test/trie_test" "--gtest_filter=TrieTest.PutGetOnePath" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/trie_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"TrieTest.PutGetOnePath" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = TrieTest.PutGetOnePath
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TrieTest
+[ RUN      ] TrieTest.PutGetOnePath
+
+Exception Type :: Not implemented, Message :: Trie::Put is not implemented.
+
+Stack trace (most recent call last):
+#21   Object "[0xffffffffffffffff]", at 0xffffffffffffffff, in 
+#20   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55e3bb37f904, in 
+#19   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7fa30f023b48, in __libc_start_main
+#18   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7fa30f023a8f, in 
+#17   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55e3bb487847, in 
+#16   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55e3bb48797e, in 
+#15   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55e3bb4161a7, in 
+#14   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55e3bb44a704, in 
+#13   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55e3bb419aa1, in 
+#12   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55e3bb3f3872, in 
+#11   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55e3bb3f2555, in 
+#10   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55e3bb3f0dcb, in 
+#9    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55e3bb447725, in 
+#8    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55e3bb384586, in 
+#7    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55e3bb3c0fb8, in 
+#6    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7fa30f4b7167, in __cxa_throw
+#5    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7fa30f4b6f06, in std::terminate()
+#4    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7fa30f4b6e9b, in 
+#3    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55e3bb3b0727, in 
+#2    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55e3bb3b057a, in 
+#1    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55e3bb3aba3c, in 
+#0    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55e3bb3b1308, in 
+<end of output>
+Test time =   0.13 sec
+----------------------------------------------------------
+Test Failed.
+"TrieTest.PutGetOnePath" end time: Oct 01 20:02 EEST
+"TrieTest.PutGetOnePath" time elapsed: 00:00:00
+----------------------------------------------------------
+
+84/172 Testing: TrieTest.BasicRemoveTest1
+84/172 Test: TrieTest.BasicRemoveTest1
+Command: "/home/omar/Desktop/bustub/build/test/trie_test" "--gtest_filter=TrieTest.BasicRemoveTest1" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/trie_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"TrieTest.BasicRemoveTest1" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = TrieTest.BasicRemoveTest1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TrieTest
+[ RUN      ] TrieTest.BasicRemoveTest1
+
+Exception Type :: Not implemented, Message :: Trie::Put is not implemented.
+
+Stack trace (most recent call last):
+#21   Object "[0xffffffffffffffff]", at 0xffffffffffffffff, in 
+#20   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x56330c657904, in 
+#19   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7fb19de23b48, in __libc_start_main
+#18   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7fb19de23a8f, in 
+#17   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x56330c75f847, in 
+#16   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x56330c75f97e, in 
+#15   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x56330c6ee1a7, in 
+#14   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x56330c722704, in 
+#13   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x56330c6f1aa1, in 
+#12   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x56330c6cb872, in 
+#11   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x56330c6ca555, in 
+#10   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x56330c6c8dcb, in 
+#9    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x56330c71f725, in 
+#8    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x56330c65d858, in 
+#7    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x56330c698fb8, in 
+#6    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7fb19e2b7167, in __cxa_throw
+#5    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7fb19e2b6f06, in std::terminate()
+#4    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7fb19e2b6e9b, in 
+#3    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x56330c688727, in 
+#2    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x56330c68857a, in 
+#1    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x56330c683a3c, in 
+#0    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x56330c689308, in 
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Failed.
+"TrieTest.BasicRemoveTest1" end time: Oct 01 20:02 EEST
+"TrieTest.BasicRemoveTest1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+85/172 Testing: TrieTest.BasicRemoveTest2
+85/172 Test: TrieTest.BasicRemoveTest2
+Command: "/home/omar/Desktop/bustub/build/test/trie_test" "--gtest_filter=TrieTest.BasicRemoveTest2" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/trie_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"TrieTest.BasicRemoveTest2" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = TrieTest.BasicRemoveTest2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TrieTest
+[ RUN      ] TrieTest.BasicRemoveTest2
+
+Exception Type :: Not implemented, Message :: Trie::Put is not implemented.
+
+Stack trace (most recent call last):
+#21   Object "[0xffffffffffffffff]", at 0xffffffffffffffff, in 
+#20   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x564a59bcc904, in 
+#19   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7fb301823b48, in __libc_start_main
+#18   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7fb301823a8f, in 
+#17   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x564a59cd4847, in 
+#16   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x564a59cd497e, in 
+#15   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x564a59c631a7, in 
+#14   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x564a59c97704, in 
+#13   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x564a59c66aa1, in 
+#12   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x564a59c40872, in 
+#11   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x564a59c3f555, in 
+#10   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x564a59c3ddcb, in 
+#9    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x564a59c94725, in 
+#8    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x564a59bd4942, in 
+#7    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x564a59c0dfb8, in 
+#6    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7fb301cb7167, in __cxa_throw
+#5    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7fb301cb6f06, in std::terminate()
+#4    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7fb301cb6e9b, in 
+#3    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x564a59bfd727, in 
+#2    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x564a59bfd57a, in 
+#1    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x564a59bf8a3c, in 
+#0    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x564a59bfe308, in 
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Failed.
+"TrieTest.BasicRemoveTest2" end time: Oct 01 20:02 EEST
+"TrieTest.BasicRemoveTest2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+86/172 Testing: TrieTest.RemoveFreeTest
+86/172 Test: TrieTest.RemoveFreeTest
+Command: "/home/omar/Desktop/bustub/build/test/trie_test" "--gtest_filter=TrieTest.RemoveFreeTest" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/trie_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"TrieTest.RemoveFreeTest" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = TrieTest.RemoveFreeTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TrieTest
+[ RUN      ] TrieTest.RemoveFreeTest
+
+Exception Type :: Not implemented, Message :: Trie::Put is not implemented.
+
+Stack trace (most recent call last):
+#21   Object "[0xffffffffffffffff]", at 0xffffffffffffffff, in 
+#20   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x560806fca904, in 
+#19   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7f21c5623b48, in __libc_start_main
+#18   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7f21c5623a8f, in 
+#17   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x5608070d2847, in 
+#16   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x5608070d297e, in 
+#15   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x5608070611a7, in 
+#14   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x560807095704, in 
+#13   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x560807064aa1, in 
+#12   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x56080703e872, in 
+#11   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x56080703d555, in 
+#10   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x56080703bdcb, in 
+#9    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x560807092725, in 
+#8    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x560806fd5232, in 
+#7    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x56080700bfb8, in 
+#6    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7f21c5ab7167, in __cxa_throw
+#5    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7f21c5ab6f06, in std::terminate()
+#4    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7f21c5ab6e9b, in 
+#3    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x560806ffb727, in 
+#2    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x560806ffb57a, in 
+#1    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x560806ff6a3c, in 
+#0    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x560806ffc308, in 
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Failed.
+"TrieTest.RemoveFreeTest" end time: Oct 01 20:02 EEST
+"TrieTest.RemoveFreeTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+87/172 Testing: TrieTest.MismatchTypeTest
+87/172 Test: TrieTest.MismatchTypeTest
+Command: "/home/omar/Desktop/bustub/build/test/trie_test" "--gtest_filter=TrieTest.MismatchTypeTest" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/trie_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"TrieTest.MismatchTypeTest" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = TrieTest.MismatchTypeTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TrieTest
+[ RUN      ] TrieTest.MismatchTypeTest
+
+Exception Type :: Not implemented, Message :: Trie::Put is not implemented.
+
+Stack trace (most recent call last):
+#21   Object "[0xffffffffffffffff]", at 0xffffffffffffffff, in 
+#20   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x555bc11a6904, in 
+#19   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7ff2f9c23b48, in __libc_start_main
+#18   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7ff2f9c23a8f, in 
+#17   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x555bc12ae847, in 
+#16   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x555bc12ae97e, in 
+#15   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x555bc123d1a7, in 
+#14   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x555bc1271704, in 
+#13   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x555bc1240aa1, in 
+#12   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x555bc121a872, in 
+#11   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x555bc1219555, in 
+#10   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x555bc1217dcb, in 
+#9    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x555bc126e725, in 
+#8    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x555bc11b243a, in 
+#7    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x555bc11e7fb8, in 
+#6    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7ff2fa0b7167, in __cxa_throw
+#5    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7ff2fa0b6f06, in std::terminate()
+#4    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7ff2fa0b6e9b, in 
+#3    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x555bc11d7727, in 
+#2    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x555bc11d757a, in 
+#1    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x555bc11d2a3c, in 
+#0    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x555bc11d8308, in 
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Failed.
+"TrieTest.MismatchTypeTest" end time: Oct 01 20:02 EEST
+"TrieTest.MismatchTypeTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+88/172 Testing: TrieTest.CopyOnWriteTest1
+88/172 Test: TrieTest.CopyOnWriteTest1
+Command: "/home/omar/Desktop/bustub/build/test/trie_test" "--gtest_filter=TrieTest.CopyOnWriteTest1" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/trie_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"TrieTest.CopyOnWriteTest1" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = TrieTest.CopyOnWriteTest1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TrieTest
+[ RUN      ] TrieTest.CopyOnWriteTest1
+
+Exception Type :: Not implemented, Message :: Trie::Put is not implemented.
+
+Stack trace (most recent call last):
+#21   Object "[0xffffffffffffffff]", at 0xffffffffffffffff, in 
+#20   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x555e4cab1904, in 
+#19   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7fc646223b48, in __libc_start_main
+#18   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7fc646223a8f, in 
+#17   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x555e4cbb9847, in 
+#16   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x555e4cbb997e, in 
+#15   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x555e4cb481a7, in 
+#14   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x555e4cb7c704, in 
+#13   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x555e4cb4baa1, in 
+#12   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x555e4cb25872, in 
+#11   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x555e4cb24555, in 
+#10   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x555e4cb22dcb, in 
+#9    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x555e4cb79725, in 
+#8    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x555e4cabddf0, in 
+#7    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x555e4caf2fb8, in 
+#6    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7fc6466b7167, in __cxa_throw
+#5    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7fc6466b6f06, in std::terminate()
+#4    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7fc6466b6e9b, in 
+#3    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x555e4cae2727, in 
+#2    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x555e4cae257a, in 
+#1    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x555e4cadda3c, in 
+#0    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x555e4cae3308, in 
+<end of output>
+Test time =   0.13 sec
+----------------------------------------------------------
+Test Failed.
+"TrieTest.CopyOnWriteTest1" end time: Oct 01 20:02 EEST
+"TrieTest.CopyOnWriteTest1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+89/172 Testing: TrieTest.CopyOnWriteTest2
+89/172 Test: TrieTest.CopyOnWriteTest2
+Command: "/home/omar/Desktop/bustub/build/test/trie_test" "--gtest_filter=TrieTest.CopyOnWriteTest2" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/trie_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"TrieTest.CopyOnWriteTest2" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = TrieTest.CopyOnWriteTest2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TrieTest
+[ RUN      ] TrieTest.CopyOnWriteTest2
+
+Exception Type :: Not implemented, Message :: Trie::Put is not implemented.
+
+Stack trace (most recent call last):
+#21   Object "[0xffffffffffffffff]", at 0xffffffffffffffff, in 
+#20   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x56146059e904, in 
+#19   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7fc76c823b48, in __libc_start_main
+#18   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7fc76c823a8f, in 
+#17   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x5614606a6847, in 
+#16   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x5614606a697e, in 
+#15   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x5614606351a7, in 
+#14   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x561460669704, in 
+#13   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x561460638aa1, in 
+#12   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x561460612872, in 
+#11   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x561460611555, in 
+#10   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x56146060fdcb, in 
+#9    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x561460666725, in 
+#8    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x5614605ae27e, in 
+#7    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x5614605dffb8, in 
+#6    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7fc76ccb7167, in __cxa_throw
+#5    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7fc76ccb6f06, in std::terminate()
+#4    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7fc76ccb6e9b, in 
+#3    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x5614605cf727, in 
+#2    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x5614605cf57a, in 
+#1    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x5614605caa3c, in 
+#0    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x5614605d0308, in 
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Failed.
+"TrieTest.CopyOnWriteTest2" end time: Oct 01 20:02 EEST
+"TrieTest.CopyOnWriteTest2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+90/172 Testing: TrieTest.CopyOnWriteTest3
+90/172 Test: TrieTest.CopyOnWriteTest3
+Command: "/home/omar/Desktop/bustub/build/test/trie_test" "--gtest_filter=TrieTest.CopyOnWriteTest3" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/trie_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"TrieTest.CopyOnWriteTest3" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = TrieTest.CopyOnWriteTest3
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TrieTest
+[ RUN      ] TrieTest.CopyOnWriteTest3
+
+Exception Type :: Not implemented, Message :: Trie::Put is not implemented.
+
+Stack trace (most recent call last):
+#21   Object "[0xffffffffffffffff]", at 0xffffffffffffffff, in 
+#20   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x557f32cbf904, in 
+#19   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7f0237023b48, in __libc_start_main
+#18   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7f0237023a8f, in 
+#17   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x557f32dc7847, in 
+#16   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x557f32dc797e, in 
+#15   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x557f32d561a7, in 
+#14   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x557f32d8a704, in 
+#13   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x557f32d59aa1, in 
+#12   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x557f32d33872, in 
+#11   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x557f32d32555, in 
+#10   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x557f32d30dcb, in 
+#9    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x557f32d87725, in 
+#8    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x557f32cd27b8, in 
+#7    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x557f32d00fb8, in 
+#6    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7f02374b7167, in __cxa_throw
+#5    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7f02374b6f06, in std::terminate()
+#4    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7f02374b6e9b, in 
+#3    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x557f32cf0727, in 
+#2    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x557f32cf057a, in 
+#1    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x557f32ceba3c, in 
+#0    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x557f32cf1308, in 
+<end of output>
+Test time =   0.16 sec
+----------------------------------------------------------
+Test Failed.
+"TrieTest.CopyOnWriteTest3" end time: Oct 01 20:02 EEST
+"TrieTest.CopyOnWriteTest3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+91/172 Testing: TrieTest.MixedTest
+91/172 Test: TrieTest.MixedTest
+Command: "/home/omar/Desktop/bustub/build/test/trie_test" "--gtest_filter=TrieTest.MixedTest" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/trie_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"TrieTest.MixedTest" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = TrieTest.MixedTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TrieTest
+[ RUN      ] TrieTest.MixedTest
+
+Exception Type :: Not implemented, Message :: Trie::Put is not implemented.
+
+Stack trace (most recent call last):
+#21   Object "[0xffffffffffffffff]", at 0xffffffffffffffff, in 
+#20   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x5570815c6904, in 
+#19   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7fbeed423b48, in __libc_start_main
+#18   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7fbeed423a8f, in 
+#17   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x5570816ce847, in 
+#16   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x5570816ce97e, in 
+#15   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55708165d1a7, in 
+#14   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x557081691704, in 
+#13   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x557081660aa1, in 
+#12   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55708163a872, in 
+#11   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x557081639555, in 
+#10   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x557081637dcb, in 
+#9    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55708168e725, in 
+#8    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x5570815dd48a, in 
+#7    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x5570816086c4, in 
+#6    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7fbeed8b7167, in __cxa_throw
+#5    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7fbeed8b6f06, in std::terminate()
+#4    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7fbeed8b6e9b, in 
+#3    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x5570815f7727, in 
+#2    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x5570815f757a, in 
+#1    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x5570815f2a3c, in 
+#0    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x5570815f8308, in 
+<end of output>
+Test time =   0.18 sec
+----------------------------------------------------------
+Test Failed.
+"TrieTest.MixedTest" end time: Oct 01 20:02 EEST
+"TrieTest.MixedTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+92/172 Testing: TrieTest.PointerStability
+92/172 Test: TrieTest.PointerStability
+Command: "/home/omar/Desktop/bustub/build/test/trie_test" "--gtest_filter=TrieTest.PointerStability" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/trie_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"TrieTest.PointerStability" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = TrieTest.PointerStability
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TrieTest
+[ RUN      ] TrieTest.PointerStability
+
+Exception Type :: Not implemented, Message :: Trie::Put is not implemented.
+
+Stack trace (most recent call last):
+#21   Object "[0xffffffffffffffff]", at 0xffffffffffffffff, in 
+#20   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55d868824904, in 
+#19   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7faee5223b48, in __libc_start_main
+#18   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7faee5223a8f, in 
+#17   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55d86892c847, in 
+#16   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55d86892c97e, in 
+#15   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55d8688bb1a7, in 
+#14   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55d8688ef704, in 
+#13   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55d8688beaa1, in 
+#12   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55d868898872, in 
+#11   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55d868897555, in 
+#10   Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55d868895dcb, in 
+#9    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55d8688ec725, in 
+#8    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55d86883f986, in 
+#7    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55d868865fb8, in 
+#6    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7faee56b7167, in __cxa_throw
+#5    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7faee56b6f06, in std::terminate()
+#4    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7faee56b6e9b, in 
+#3    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55d868855727, in 
+#2    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55d86885557a, in 
+#1    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55d868850a3c, in 
+#0    Object "/home/omar/Desktop/bustub/build/test/trie_test", at 0x55d868856308, in 
+<end of output>
+Test time =   0.18 sec
+----------------------------------------------------------
+Test Failed.
+"TrieTest.PointerStability" end time: Oct 01 20:02 EEST
+"TrieTest.PointerStability" time elapsed: 00:00:00
+----------------------------------------------------------
+
+93/172 Testing: BPlusTreeConcurrentTest.InsertTest1
+93/172 Test: BPlusTreeConcurrentTest.InsertTest1
+Command: ""
+Directory: /home/omar/Desktop/bustub/build/test
+"BPlusTreeConcurrentTest.InsertTest1" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BPlusTreeConcurrentTest.InsertTest1" end time: Oct 01 20:02 EEST
+"BPlusTreeConcurrentTest.InsertTest1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+94/172 Testing: BPlusTreeConcurrentTest.InsertTest2
+94/172 Test: BPlusTreeConcurrentTest.InsertTest2
+Command: ""
+Directory: /home/omar/Desktop/bustub/build/test
+"BPlusTreeConcurrentTest.InsertTest2" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BPlusTreeConcurrentTest.InsertTest2" end time: Oct 01 20:02 EEST
+"BPlusTreeConcurrentTest.InsertTest2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+95/172 Testing: BPlusTreeConcurrentTest.DeleteTest1
+95/172 Test: BPlusTreeConcurrentTest.DeleteTest1
+Command: ""
+Directory: /home/omar/Desktop/bustub/build/test
+"BPlusTreeConcurrentTest.DeleteTest1" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BPlusTreeConcurrentTest.DeleteTest1" end time: Oct 01 20:02 EEST
+"BPlusTreeConcurrentTest.DeleteTest1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+96/172 Testing: BPlusTreeConcurrentTest.DeleteTest2
+96/172 Test: BPlusTreeConcurrentTest.DeleteTest2
+Command: ""
+Directory: /home/omar/Desktop/bustub/build/test
+"BPlusTreeConcurrentTest.DeleteTest2" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BPlusTreeConcurrentTest.DeleteTest2" end time: Oct 01 20:02 EEST
+"BPlusTreeConcurrentTest.DeleteTest2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+97/172 Testing: BPlusTreeConcurrentTest.MixTest1
+97/172 Test: BPlusTreeConcurrentTest.MixTest1
+Command: ""
+Directory: /home/omar/Desktop/bustub/build/test
+"BPlusTreeConcurrentTest.MixTest1" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BPlusTreeConcurrentTest.MixTest1" end time: Oct 01 20:02 EEST
+"BPlusTreeConcurrentTest.MixTest1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+98/172 Testing: BPlusTreeConcurrentTest.MixTest2
+98/172 Test: BPlusTreeConcurrentTest.MixTest2
+Command: ""
+Directory: /home/omar/Desktop/bustub/build/test
+"BPlusTreeConcurrentTest.MixTest2" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BPlusTreeConcurrentTest.MixTest2" end time: Oct 01 20:02 EEST
+"BPlusTreeConcurrentTest.MixTest2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+99/172 Testing: BPlusTreeContentionTest.BPlusTreeContentionBenchmark
+99/172 Test: BPlusTreeContentionTest.BPlusTreeContentionBenchmark
+Command: "/home/omar/Desktop/bustub/build/test/b_plus_tree_contention_test" "--gtest_filter=BPlusTreeContentionTest.BPlusTreeContentionBenchmark" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/b_plus_tree_contention_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"BPlusTreeContentionTest.BPlusTreeContentionBenchmark" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = BPlusTreeContentionTest.BPlusTreeContentionBenchmark
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BPlusTreeContentionTest
+[ RUN      ] BPlusTreeContentionTest.BPlusTreeContentionBenchmark
+This test will see how your B+ tree performance differs with and without contention.
+If your submission timeout, segfault, or didn't implement lock crabbing, we will manually deduct all concurrent test points (maximum 25).
+left_node_size = 2
+Stack trace (most recent call last):
+#22   Object "[0xffffffffffffffff]", at 0xffffffffffffffff, in 
+#21   Object "/home/omar/Desktop/bustub/build/test/b_plus_tree_contention_test", at 0x556c3f92a194, in 
+#20   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7f8f7c223b48, in __libc_start_main
+#19   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7f8f7c223a8f, in 
+#18   Object "/home/omar/Desktop/bustub/build/test/b_plus_tree_contention_test", at 0x556c3fae388f, in 
+#17   Object "/home/omar/Desktop/bustub/build/test/b_plus_tree_contention_test", at 0x556c3fae39c6, in 
+#16   Object "/home/omar/Desktop/bustub/build/test/b_plus_tree_contention_test", at 0x556c3fa75cc9, in 
+#15   Object "/home/omar/Desktop/bustub/build/test/b_plus_tree_contention_test", at 0x556c3faa9252, in 
+#14   Object "/home/omar/Desktop/bustub/build/test/b_plus_tree_contention_test", at 0x556c3fa795c3, in 
+#13   Object "/home/omar/Desktop/bustub/build/test/b_plus_tree_contention_test", at 0x556c3fa53394, in 
+#12   Object "/home/omar/Desktop/bustub/build/test/b_plus_tree_contention_test", at 0x556c3fa52077, in 
+#11   Object "/home/omar/Desktop/bustub/build/test/b_plus_tree_contention_test", at 0x556c3fa508ed, in 
+#10   Object "/home/omar/Desktop/bustub/build/test/b_plus_tree_contention_test", at 0x556c3faa6293, in 
+#9    Object "/home/omar/Desktop/bustub/build/test/b_plus_tree_contention_test", at 0x556c3f92c5d6, in 
+#8    Object "/home/omar/Desktop/bustub/build/test/b_plus_tree_contention_test", at 0x556c3f92ba8d, in 
+#7    Object "/home/omar/Desktop/bustub/build/test/b_plus_tree_contention_test", at 0x556c3f9531ae, in 
+#6    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7f8f7c6b7167, in __cxa_throw
+#5    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7f8f7c6b6f06, in std::terminate()
+#4    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7f8f7c6b6e9b, in 
+#3    Object "/home/omar/Desktop/bustub/build/test/b_plus_tree_contention_test", at 0x556c3f943725, in 
+#2    Object "/home/omar/Desktop/bustub/build/test/b_plus_tree_contention_test", at 0x556c3f943578, in 
+#1    Object "/home/omar/Desktop/bustub/build/test/b_plus_tree_contention_test", at 0x556c3f93ea5a, in 
+#0    Object "/home/omar/Desktop/bustub/build/test/b_plus_tree_contention_test", at 0x556c3f9441ce, in 
+<end of output>
+Test time =   0.25 sec
+----------------------------------------------------------
+Test Failed.
+"BPlusTreeContentionTest.BPlusTreeContentionBenchmark" end time: Oct 01 20:02 EEST
+"BPlusTreeContentionTest.BPlusTreeContentionBenchmark" time elapsed: 00:00:00
+----------------------------------------------------------
+
+100/172 Testing: BPlusTreeContentionTest.BPlusTreeContentionBenchmark2
+100/172 Test: BPlusTreeContentionTest.BPlusTreeContentionBenchmark2
+Command: "/home/omar/Desktop/bustub/build/test/b_plus_tree_contention_test" "--gtest_filter=BPlusTreeContentionTest.BPlusTreeContentionBenchmark2" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/b_plus_tree_contention_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"BPlusTreeContentionTest.BPlusTreeContentionBenchmark2" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = BPlusTreeContentionTest.BPlusTreeContentionBenchmark2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BPlusTreeContentionTest
+[ RUN      ] BPlusTreeContentionTest.BPlusTreeContentionBenchmark2
+This test will see how your B+ tree performance differs with and without contention.
+If your submission timeout, segfault, or didn't implement lock crabbing, we will manually deduct all concurrent test points (maximum 25).
+left_node_size = 10
+Stack trace (most recent call last):
+#22   Object "[0xffffffffffffffff]", at 0xffffffffffffffff, in 
+#21   Object "/home/omar/Desktop/bustub/build/test/b_plus_tree_contention_test", at 0x5629bcd09194, in 
+#20   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7f7e17e23b48, in __libc_start_main
+#19   Object "/lib/x86_64-linux-gnu/libc.so.6", at 0x7f7e17e23a8f, in 
+#18   Object "/home/omar/Desktop/bustub/build/test/b_plus_tree_contention_test", at 0x5629bcec288f, in 
+#17   Object "/home/omar/Desktop/bustub/build/test/b_plus_tree_contention_test", at 0x5629bcec29c6, in 
+#16   Object "/home/omar/Desktop/bustub/build/test/b_plus_tree_contention_test", at 0x5629bce54cc9, in 
+#15   Object "/home/omar/Desktop/bustub/build/test/b_plus_tree_contention_test", at 0x5629bce88252, in 
+#14   Object "/home/omar/Desktop/bustub/build/test/b_plus_tree_contention_test", at 0x5629bce585c3, in 
+#13   Object "/home/omar/Desktop/bustub/build/test/b_plus_tree_contention_test", at 0x5629bce32394, in 
+#12   Object "/home/omar/Desktop/bustub/build/test/b_plus_tree_contention_test", at 0x5629bce31077, in 
+#11   Object "/home/omar/Desktop/bustub/build/test/b_plus_tree_contention_test", at 0x5629bce2f8ed, in 
+#10   Object "/home/omar/Desktop/bustub/build/test/b_plus_tree_contention_test", at 0x5629bce85293, in 
+#9    Object "/home/omar/Desktop/bustub/build/test/b_plus_tree_contention_test", at 0x5629bcd0c52c, in 
+#8    Object "/home/omar/Desktop/bustub/build/test/b_plus_tree_contention_test", at 0x5629bcd0aa8d, in 
+#7    Object "/home/omar/Desktop/bustub/build/test/b_plus_tree_contention_test", at 0x5629bcd321ae, in 
+#6    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7f7e182b7167, in __cxa_throw
+#5    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7f7e182b6f06, in std::terminate()
+#4    Object "/lib/x86_64-linux-gnu/libstdc++.so.6", at 0x7f7e182b6e9b, in 
+#3    Object "/home/omar/Desktop/bustub/build/test/b_plus_tree_contention_test", at 0x5629bcd22725, in 
+#2    Object "/home/omar/Desktop/bustub/build/test/b_plus_tree_contention_test", at 0x5629bcd22578, in 
+#1    Object "/home/omar/Desktop/bustub/build/test/b_plus_tree_contention_test", at 0x5629bcd1da5a, in 
+#0    Object "/home/omar/Desktop/bustub/build/test/b_plus_tree_contention_test", at 0x5629bcd231ce, in 
+<end of output>
+Test time =   0.21 sec
+----------------------------------------------------------
+Test Failed.
+"BPlusTreeContentionTest.BPlusTreeContentionBenchmark2" end time: Oct 01 20:02 EEST
+"BPlusTreeContentionTest.BPlusTreeContentionBenchmark2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+101/172 Testing: BPlusTreeTests.DeleteTest1
+101/172 Test: BPlusTreeTests.DeleteTest1
+Command: ""
+Directory: /home/omar/Desktop/bustub/build/test
+"BPlusTreeTests.DeleteTest1" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BPlusTreeTests.DeleteTest1" end time: Oct 01 20:02 EEST
+"BPlusTreeTests.DeleteTest1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+102/172 Testing: BPlusTreeTests.DeleteTest2
+102/172 Test: BPlusTreeTests.DeleteTest2
+Command: ""
+Directory: /home/omar/Desktop/bustub/build/test
+"BPlusTreeTests.DeleteTest2" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BPlusTreeTests.DeleteTest2" end time: Oct 01 20:02 EEST
+"BPlusTreeTests.DeleteTest2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+103/172 Testing: BPlusTreeTests.InsertTest1
+103/172 Test: BPlusTreeTests.InsertTest1
+Command: ""
+Directory: /home/omar/Desktop/bustub/build/test
+"BPlusTreeTests.InsertTest1" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BPlusTreeTests.InsertTest1" end time: Oct 01 20:02 EEST
+"BPlusTreeTests.InsertTest1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+104/172 Testing: BPlusTreeTests.InsertTest2
+104/172 Test: BPlusTreeTests.InsertTest2
+Command: ""
+Directory: /home/omar/Desktop/bustub/build/test
+"BPlusTreeTests.InsertTest2" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BPlusTreeTests.InsertTest2" end time: Oct 01 20:02 EEST
+"BPlusTreeTests.InsertTest2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+105/172 Testing: BPlusTreeTests.InsertTest3
+105/172 Test: BPlusTreeTests.InsertTest3
+Command: ""
+Directory: /home/omar/Desktop/bustub/build/test
+"BPlusTreeTests.InsertTest3" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BPlusTreeTests.InsertTest3" end time: Oct 01 20:02 EEST
+"BPlusTreeTests.InsertTest3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+106/172 Testing: BPlusTreeTests.ScaleTest
+106/172 Test: BPlusTreeTests.ScaleTest
+Command: ""
+Directory: /home/omar/Desktop/bustub/build/test
+"BPlusTreeTests.ScaleTest" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BPlusTreeTests.ScaleTest" end time: Oct 01 20:02 EEST
+"BPlusTreeTests.ScaleTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+107/172 Testing: DiskManagerTest.ReadWritePageTest
+107/172 Test: DiskManagerTest.ReadWritePageTest
+Command: "/home/omar/Desktop/bustub/build/test/disk_manager_test" "--gtest_filter=DiskManagerTest.ReadWritePageTest" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/disk_manager_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"DiskManagerTest.ReadWritePageTest" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = DiskManagerTest.ReadWritePageTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DiskManagerTest
+[ RUN      ] DiskManagerTest.ReadWritePageTest
+[       OK ] DiskManagerTest.ReadWritePageTest (3 ms)
+[----------] 1 test from DiskManagerTest (3 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (3 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DiskManagerTest.ReadWritePageTest" end time: Oct 01 20:02 EEST
+"DiskManagerTest.ReadWritePageTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+108/172 Testing: DiskManagerTest.ReadWriteLogTest
+108/172 Test: DiskManagerTest.ReadWriteLogTest
+Command: "/home/omar/Desktop/bustub/build/test/disk_manager_test" "--gtest_filter=DiskManagerTest.ReadWriteLogTest" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/disk_manager_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"DiskManagerTest.ReadWriteLogTest" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = DiskManagerTest.ReadWriteLogTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DiskManagerTest
+[ RUN      ] DiskManagerTest.ReadWriteLogTest
+[       OK ] DiskManagerTest.ReadWriteLogTest (0 ms)
+[----------] 1 test from DiskManagerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DiskManagerTest.ReadWriteLogTest" end time: Oct 01 20:02 EEST
+"DiskManagerTest.ReadWriteLogTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+109/172 Testing: DiskManagerTest.ThrowBadFileTest
+109/172 Test: DiskManagerTest.ThrowBadFileTest
+Command: "/home/omar/Desktop/bustub/build/test/disk_manager_test" "--gtest_filter=DiskManagerTest.ThrowBadFileTest" "--gtest_also_run_disabled_tests" "--gtest_output=xml:/home/omar/Desktop/bustub/build/test/disk_manager_test.xml" "--gtest_catch_exceptions=0"
+Directory: /home/omar/Desktop/bustub/build/test
+"DiskManagerTest.ThrowBadFileTest" start time: Oct 01 20:02 EEST
+Output:
+----------------------------------------------------------
+Running main() from gmock_main.cc
+Note: Google Test filter = DiskManagerTest.ThrowBadFileTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DiskManagerTest
+[ RUN      ] DiskManagerTest.ThrowBadFileTest
+Message :: can't open db file
+[       OK ] DiskManagerTest.ThrowBadFileTest (0 ms)
+[----------] 1 test from DiskManagerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"DiskManagerTest.ThrowBadFileTest" end time: Oct 01 20:02 EEST
+"DiskManagerTest.ThrowBadFileTest" time elapsed: 00:00:00
+----------------------------------------------------------
+

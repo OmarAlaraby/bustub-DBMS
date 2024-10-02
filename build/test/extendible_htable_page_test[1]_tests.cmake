@@ -1,0 +1,7 @@
+add_test([=[ExtendibleHTableTest.BucketPageSampleTest]=]  /home/omar/Desktop/bustub/build/test/extendible_htable_page_test [==[--gtest_filter=ExtendibleHTableTest.DISABLED_BucketPageSampleTest]==] --gtest_also_run_disabled_tests [==[--gtest_output=xml:/home/omar/Desktop/bustub/build/test/extendible_htable_page_test.xml]==] [==[--gtest_catch_exceptions=0]==])
+set_tests_properties([=[ExtendibleHTableTest.BucketPageSampleTest]=]  PROPERTIES DISABLED TRUE)
+set_tests_properties([=[ExtendibleHTableTest.BucketPageSampleTest]=]  PROPERTIES WORKING_DIRECTORY /home/omar/Desktop/bustub/build/test SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==] TIMEOUT 120)
+add_test([=[ExtendibleHTableTest.HeaderDirectoryPageSampleTest]=]  /home/omar/Desktop/bustub/build/test/extendible_htable_page_test [==[--gtest_filter=ExtendibleHTableTest.DISABLED_HeaderDirectoryPageSampleTest]==] --gtest_also_run_disabled_tests [==[--gtest_output=xml:/home/omar/Desktop/bustub/build/test/extendible_htable_page_test.xml]==] [==[--gtest_catch_exceptions=0]==])
+set_tests_properties([=[ExtendibleHTableTest.HeaderDirectoryPageSampleTest]=]  PROPERTIES DISABLED TRUE)
+set_tests_properties([=[ExtendibleHTableTest.HeaderDirectoryPageSampleTest]=]  PROPERTIES WORKING_DIRECTORY /home/omar/Desktop/bustub/build/test SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==] TIMEOUT 120)
+set(  extendible_htable_page_test_TESTS ExtendibleHTableTest.BucketPageSampleTest ExtendibleHTableTest.HeaderDirectoryPageSampleTest)

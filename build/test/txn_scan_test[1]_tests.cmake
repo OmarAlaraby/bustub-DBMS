@@ -1,0 +1,7 @@
+add_test([=[TxnScanTest.TupleReconstructTest]=]  /home/omar/Desktop/bustub/build/test/txn_scan_test [==[--gtest_filter=TxnScanTest.DISABLED_TupleReconstructTest]==] --gtest_also_run_disabled_tests [==[--gtest_output=xml:/home/omar/Desktop/bustub/build/test/txn_scan_test.xml]==] [==[--gtest_catch_exceptions=0]==])
+set_tests_properties([=[TxnScanTest.TupleReconstructTest]=]  PROPERTIES DISABLED TRUE)
+set_tests_properties([=[TxnScanTest.TupleReconstructTest]=]  PROPERTIES WORKING_DIRECTORY /home/omar/Desktop/bustub/build/test SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==] TIMEOUT 120)
+add_test([=[TxnScanTest.ScanTest]=]  /home/omar/Desktop/bustub/build/test/txn_scan_test [==[--gtest_filter=TxnScanTest.DISABLED_ScanTest]==] --gtest_also_run_disabled_tests [==[--gtest_output=xml:/home/omar/Desktop/bustub/build/test/txn_scan_test.xml]==] [==[--gtest_catch_exceptions=0]==])
+set_tests_properties([=[TxnScanTest.ScanTest]=]  PROPERTIES DISABLED TRUE)
+set_tests_properties([=[TxnScanTest.ScanTest]=]  PROPERTIES WORKING_DIRECTORY /home/omar/Desktop/bustub/build/test SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==] TIMEOUT 120)
+set(  txn_scan_test_TESTS TxnScanTest.TupleReconstructTest TxnScanTest.ScanTest)
