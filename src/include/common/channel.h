@@ -51,6 +51,10 @@ class Channel {
     return element;
   }
 
+  auto size(){
+    return static_cast<size_t>(q_.size());
+  }
+
  private:
   std::mutex m_;
   std::condition_variable cv_;
